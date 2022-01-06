@@ -53,9 +53,16 @@ nav{
 }
 
 /*Helen*/
-#introbackground{
-  width: 100%;
+/* .intropage{
+  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885);
+    background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
+  overflow: hidden;
+} */
+
+#introbackground{
+  
 }
 
 .welcome{
@@ -90,8 +97,9 @@ nav{
 }
 
 .introtext{
-  display: flex;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 
@@ -100,7 +108,11 @@ nav{
 
 /*Kelly*/
 #dirHead {
-  margin: 5%;
+  font-family: 'Gemunu Libre', sans-serif;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 3em;
+  text-align: center;
 }
 
 .bord {
@@ -109,6 +121,9 @@ nav{
 
 .images {
   display: flex;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-between;
 }
 
 .dirImg {
