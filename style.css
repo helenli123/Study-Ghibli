@@ -1,6 +1,6 @@
 /* a minimalist set of CSS resets */
 /*Helen importing fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap");
 /*.*/
 
 /* default to border-box */
@@ -27,83 +27,91 @@ video {
   max-width: 100%;
 }
 /*Madison*/
-.study1{
+.study1 {
   min-height: 100%;
   width: 100%;
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753);
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav{
-  display:flex;
-  align-items:center;
-  height: 
+nav {
+  display: flex;
+  align-items: center;
+  height: ;
 }
 
-.logo{
-  width:160px;
+.logo {
+  width: 160px;
 }
 
-.study1 h1{
+.study1 h1 {
   text-align: left;
   font-size: 50px;
   margin: 60px;
-  line-height: 4;
-  color: rgb(255,255,255);
-  font-family: 'Gemunu Libre', sans-serif;
+  line-height:5;
+  color: rgb(255, 255, 255);
+  font-family: "Gemunu Libre", sans-serif;
 }
 
-.study1 iframe
-{
-  position: relative;
+.study1 iframe {
+  position: left, center;
+  line-height: 10;
 }
 
 /*Helen*/
-.intropage{
-  background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885) no-repeat center center fixed;
+.intropage {
+  background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
+    no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
-} 
+}
 
-
-.welcome{
+.welcome {
   text-align: center;
-  margin: 10px;  
-  color: rgb(243,171,255);
-  font-family: 'Gemunu Libre', sans-serif;
+  margin: 10px;
+  color: rgb(243, 171, 255);
+  font-family: "Gemunu Libre", sans-serif;
   font-size: 40px;
 }
 
-.studyghibli{
+.studyghibli {
   display: flex;
   justify-content: center;
-  color:rgb(224,50,253);
-  font-family: 'Unica One', cursive;
-  font-size: 30px
+  color: rgb(224, 50, 253);
+  font-family: "Unica One", cursive;
+  font-size: 30px;
 }
 
-#homeghibliicon{
-  width: 10px;
-  height:10px
-  margin:0;
+#study{
+  font-size: 60px;
+}
+#ghibli{
+  font-size: 60px;
   
 }
 
-.startbutton{
+#homeghibliicon {
+  width: 50px;
+  height: 60px;
+  border-radius: 30%;
+  margin: 15px 15px 0 20px;
+}
+
+.startbutton {
   text-decoration: none;
   text-align: center;
   margin: 10px;
 }
 
-.startbutton a{
+.startbutton a {
   text-decoration: none;
-  color: rgb(243,171,255);
-  font-family: 'Gemunu Libre', sans-serif;
+  color: rgb(243, 171, 255);
+  font-family: "Gemunu Libre", sans-serif;
 }
 
-.introtext{
+.introtext {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -111,11 +119,9 @@ nav{
   align-items: center;
 }
 
-
-
 /*Kelly*/
 #dirHead {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   font-size: 4em;
@@ -139,6 +145,5 @@ nav{
   width: 35vh;
   height: 65vh;
 }
-
 
 /*Madison*/
