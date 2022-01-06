@@ -40,10 +40,18 @@ nav{
   display:flex;
   align-items:center;
   justify-content:space-between;
+  padding:20px 0;
 }
+
 .logo{
   width:160px;
 }
+
+.study1 h1{
+  font-size: 75px;
+  margin-top: 12%;
+}
+
 /*Helen*/
 #introbackground{
   width: 100%;
@@ -69,17 +77,43 @@ nav{
   width: 50px;
 }
 
+.startbutton{
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
+
+.startbutton a{
+  text-decoration: none;
+  color: rgb(243,171,255);
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.introtext{
+  display: flex;
+  
+}
+
 
 
 
 
 /*Kelly*/
+#dirHead {
+  margin: 5%;
+}
+
 .bord {
-  border: 5px purple solid;
+  border: 10px purple solid;
 }
 
 .images {
   display: flex;
+}
+
+.dirImg {
+  width: 40vh;
+  height: 70vh;
 }
 
 
