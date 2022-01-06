@@ -1,7 +1,6 @@
 /* a minimalist set of CSS resets */
 /*Helen importing fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap');
 /*.*/
 
 /* default to border-box */
@@ -39,7 +38,7 @@ video {
 nav{
   display:flex;
   align-items:center;
-  padding:20px 0;
+  height: 
 }
 
 .logo{
@@ -47,10 +46,17 @@ nav{
 }
 
 .study1 h1{
-  font-size: 45px;
-  margin-top: 5%;
+  text-align: left;
+  font-size: 50px;
+  margin: 60px;
+  line-height: 4;
   color: rgb(255,255,255);
   font-family: 'Gemunu Libre', sans-serif;
+}
+
+.study1 iframe
+{
+  position: relative;
 }
 
 /*Helen*/
@@ -67,18 +73,22 @@ nav{
   margin: 10px;  
   color: rgb(243,171,255);
   font-family: 'Gemunu Libre', sans-serif;
+  font-size: 40px;
 }
 
 .studyghibli{
   display: flex;
   justify-content: center;
   color:rgb(224,50,253);
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Unica One', cursive;
+  font-size: 30px
 }
 
 #homeghibliicon{
-  border-radius: 40%;
-  width: 50px;
+  width: 10px;
+  height:10px
+  margin:0;
+  
 }
 
 .startbutton{
@@ -111,6 +121,7 @@ nav{
   font-size: 4em;
   text-align: center;
   color: #e368b2;
+  letter-spacing: 3px;
 }
 
 .bord {
@@ -119,14 +130,14 @@ nav{
 
 .images {
   display: flex;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
   justify-content: space-between;
 }
 
 .dirImg {
-  width: 40vh;
-  height: 70vh;
+  width: 35vh;
+  height: 65vh;
 }
 
 
