@@ -29,17 +29,16 @@ video {
 }
 /*Madison*/
 .study1{
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
-  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753);
+  background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753);
   background-position:center;
   background-repeat: no-repeat;
-  background-size: 100%
+  background-size: cover;
 }
 nav{
   display:flex;
   align-items:center;
-  justify-content:space-between;
   padding:20px 0;
 }
 
@@ -48,22 +47,20 @@ nav{
 }
 
 .study1 h1{
-  font-size: 75px;
-  margin-top: 12%;
+  font-size: 45px;
+  margin-top: 5%;
+  color: rgb(255,255,255);
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 /*Helen*/
-/* .intropage{
-  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885);
-    background: url(images/bg.jpg) no-repeat center center fixed;
+.intropage{
+  background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
-} */
+} 
 
-#introbackground{
-  
-}
 
 .welcome{
   text-align: center;
@@ -97,12 +94,12 @@ nav{
 }
 
 .introtext{
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 
 
@@ -111,8 +108,9 @@ nav{
   font-family: 'Gemunu Libre', sans-serif;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
+  color: #e368b2;
 }
 
 .bord {
