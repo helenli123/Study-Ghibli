@@ -1,4 +1,8 @@
 /* a minimalist set of CSS resets */
+/*Helen importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+/*.*/
 
 /* default to border-box */
 html {
@@ -23,8 +27,8 @@ video {
   height: auto;
   max-width: 100%;
 }
-
-.study1background{
+/*Madison*/
+.study1{
   min-height: 100vh;
   width: 100%;
   background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753);
@@ -32,22 +36,50 @@ video {
   background-repeat: no-repeat;
   background-size: 100%
 }
-
+nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.logo{
+  width:160px;
+}
 /*Helen*/
 #introbackground{
   width: 100%;
   height: 100%;
 }
+
+.welcome{
+  text-align: center;
+  margin: 10px;  
+  color: rgb(243,171,255);
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.studyghibli{
+  display: flex;
+  justify-content: center;
+  color:rgb(224,50,253);
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
 #homeghibliicon{
   border-radius: 40%;
-  transform: scale(0.3, 0.3);
+  width: 50px;
 }
+
+
 
 
 
 /*Kelly*/
 .bord {
   border: 5px purple solid;
+}
+
+.images {
+  display: flex;
 }
 
 
