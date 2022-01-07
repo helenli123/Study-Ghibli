@@ -4,6 +4,11 @@
 /*.*/
 
 /* default to border-box */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -93,14 +98,17 @@ video {
 }
 
 /*Kelly*/
+.text {
+  border: 5px blue solid;
+  height: 15%;
+}
+
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
-  margin-top: 0%;
   font-size: 4em;
   text-align: center;
   color: #e368b2;
   letter-spacing: 3px;
-  display: block;
 }
 
 .bord {
@@ -111,6 +119,7 @@ video {
 }
 
 .images {
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
