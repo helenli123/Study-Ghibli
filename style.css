@@ -78,21 +78,24 @@ video {
 
 .startbutton {
   display: block;
-  width: 150%;
   border: none;
-  padding: 14px 28px;
+  border-radius: 8px;
+  width: 100px;
+  height:100px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  text-align: center;
   margin: 10px;
-}
-
-.startbutton a {
+  transition-duration: 0.4s;
   text-decoration: none;
   color: rgb(243, 171, 255);
   font-family: "Gemunu Libre", sans-serif;
+}
+
+.startbutton:hover {
+  background-color: rgb(224,50, 253); /* Green */
+  color: white;
 }
 
 .introtext {
