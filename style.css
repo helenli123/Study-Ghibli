@@ -104,9 +104,12 @@ video {
 
 .bord {
   border: 2vh purple solid;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
-.images {
+#images {
   display: flex;
   justify-content: space-between;
 }

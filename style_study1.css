@@ -9,8 +9,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
   margin: 0;
   color: rgb(255, 255, 255);
   font-family: "Gemunu Libre", sans-serif;
@@ -26,6 +25,8 @@ body {
 }
 .music-container {
   background-color: white;
+  width: 25%;
+  down: 30px;
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgb(90,21,21);
   display: flex;
@@ -98,7 +99,7 @@ body {
 
 .action-btn.action-btn-big {
   color: #cdc2d0;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .action-btn:focus {
