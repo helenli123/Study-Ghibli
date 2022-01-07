@@ -23,8 +23,8 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  audio.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One%20Summers%20Day%20-%20Joe%20Hisaishi.mp3?v=1641538998059";
+  cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729";
 }
 
 // Play song
