@@ -2,6 +2,7 @@ const listsContainer = document.querySelector('[data-lists]');
 const newListForm = document.querySelector('[data-new-list-form]');
 const newListInput = document.querySelector('[data-new-list-input]');
 
+const LOCAL_STORAGF
 let lists = [];
 
 //add list item to the list of lists (my lists)
