@@ -26,7 +26,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Lato', sans-serif;
-  margin: 0;
 }
 
 /* images and videos max out at full width */
@@ -98,10 +97,6 @@ video {
 }
 
 /*Kelly*/
-.text {
-  border: 5px blue solid;
-  height: 15%;
-}
 
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
@@ -109,6 +104,7 @@ video {
   text-align: center;
   color: #e368b2;
   letter-spacing: 3px;
+  padding-bottom: 12%;
 }
 
 .bord {
