@@ -49,11 +49,101 @@ video {
   font-family: "Gemunu Libre", sans-serif;
 }
 
-.study1 iframe {
-  position: left, center;
-  line-height: 10;
+.study1 music-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 20 px 0 #862D2D;
+  display: flex;
+  padding: 20px 30px;
+  position: relative;
+  margin: 100px 0;
+  z-index:10;
+}
+.study1 img-container{
+  position: relative;
+  width: 110px;
 }
 
+.study1 img-container::after
+{
+  content:'';
+  background-color:white;
+  height:20px;
+  width:20px;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.study1 img-container img{
+  width: inherit;
+  height: 110px;
+  border-radius:50%;
+  object-fit:cover;
+  position:absolute;
+  bottom: 0;
+  left:0;
+  
+  animation:rotate 3s linear infinite;
+}
+
+.music-container.play .img-container img{
+  animation-play-state: running;
+}
+
+@keyframes rotate
+{
+  from{
+    transform: rotate(0deg);   
+}
+  to{
+transform: rotate(360deg);
+  }
+}
+
+.study1 navigation{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  z-index:1;
+}
+
+.study1 action-btn
+{
+  <!--background-color:white;
+  border:0;
+  color:#dfdbdf;
+  font-size:20px;
+  cursor:pointer;
+  padding:10px;
+  margin: 0 20px;
+}
+
+.study1 action-btn-big{
+  color: #cdc2d0;
+  font-size: 30px;
+}
+
+.study1 action-btn:focus
+{
+  outline:0;
+}
+
+.study1 music-info
+{
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top:0;
+  left:20px;
+  width: calc(100% - 40px);
+  opacity:0;
+  transform:translateY(0%)
+}
+
+.
 /*Helen*/
 .intropage {
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
