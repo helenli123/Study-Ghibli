@@ -49,7 +49,7 @@ video {
   font-family: "Gemunu Libre", sans-serif;
 }
 
-.study1 music-container {
+.music-container {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 20px 20 px 0 #862D2D;
@@ -59,12 +59,12 @@ video {
   margin: 100px 0;
   z-index:10;
 }
-.study1 img-container{
+.img-container{
   position: relative;
   width: 110px;
 }
 
-.study1 img-container::after
+.img-container::after
 {
   content:'';
   background-color:white;
@@ -77,7 +77,7 @@ video {
   transform: translate(-50%, -50%);
 }
 
-.study1 img-container img{
+.img-container img{
   width: inherit;
   height: 110px;
   border-radius:50%;
@@ -103,16 +103,16 @@ transform: rotate(360deg);
   }
 }
 
-.study1 navigation{
+.navigation{
   display: flex;
   align-items:center;
   justify-content: center;
   z-index:1;
 }
 
-.study1 action-btn
+.action-btn
 {
-  <!--background-color:white;
+  background-color:white;
   border:0;
   color:#dfdbdf;
   font-size:20px;
@@ -126,12 +126,12 @@ transform: rotate(360deg);
   font-size: 30px;
 }
 
-.study1 action-btn:focus
+.action-btn:focus
 {
   outline:0;
 }
 
-.study1 music-info
+.music-info
 {
   background-color: white;
   border-radius: 15px 15px 0 0;
@@ -140,10 +140,35 @@ transform: rotate(360deg);
   left:20px;
   width: calc(100% - 40px);
   opacity:0;
-  transform:translateY(0%)
+  transform:translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
 }
 
-.
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #fe8daa;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
 /*Helen*/
 .intropage {
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
