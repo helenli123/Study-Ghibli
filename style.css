@@ -51,7 +51,7 @@ video {
   margin: 10px;
   color: rgb(243, 171, 255);
   font-family: "Gemunu Libre", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .studyghibli {
@@ -59,7 +59,7 @@ video {
   justify-content: center;
   color: rgb(224, 50, 253);
   font-family: "Unica One", cursive;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #study{
@@ -80,26 +80,28 @@ video {
 
 .startbutton a{
   display: in-line;
+  text-align:center;
   text-decoration: none;
   border-radius:12px;
-  
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 16px;
 }
 
 .startbutton button{
   background-color: #E1C7E6; 
   border: none;
-  color:black;
   padding: .5em 1.25em;
   border-radius: 12px;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 16px;
+  margin-left:-12px;
+  margin-top: 10px;
 }
 
 .startbutton:hover {
-  background-color: rgb(232,162,243); 
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(104,99,99,0.77);
+  box-shadow: 10px 0px 25px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 0px 25px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px 0px 25px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px 0px 25px  rgba(0,0,0,0.6);
+  border-radius:12px;
 }
 
 .introtext {

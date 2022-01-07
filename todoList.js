@@ -2,16 +2,10 @@ const listsContainer = document.querySelector('[data-lists]');
 const newListForm = document.querySelector('[data-new-list-form]');
 const newListInput = document.querySelector('[data-new-list-input]');
 
-let lists = [{
-  id: 1,
-  name: 'name'
-}, {
-  id: 2,
-  name: 'todo'
-}];
+let lists = [];
 
 //add list item to the list of lists (my lists)
-newListForm.addEventListener('sumbit', e => {
+newListForm.addEventListener('submit', e => {
   e.preventDefault(); //prevent page from automatically reloading
   const listName = newListInput.value;
   if (listName == null || listName === '') return  //make sure the user actually typed something
