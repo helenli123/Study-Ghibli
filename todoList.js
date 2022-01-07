@@ -1,4 +1,6 @@
 const listsContainer = document.querySelector('[data-lists]');
+const newListForm = document.querySelector('[data-new-list-form]');
+const newListInput = document.querySelector('[data-new-list-input]');
 
 let lists = [{
   id: 1,
@@ -8,6 +10,23 @@ let lists = [{
   name: 'todo'
 }];
 
+//add list item to the list of lists (my lists)
+newListForm.addEventListener('sumbit', e => {
+  e.preventDefault(); //prevent page from automatically reloading
+  const listName = newListInput.value;
+  if (listName == null || listName === '') return  //make sure the user actually typed something
+  const list = createList(listName);
+  newListInput.value = null;  //clear form
+  lists.push(list);  //add user input to list of lists 
+  render();
+})
+
+//create item in the list of lists (my lists)
+function createList(name) {
+  return {id: Date.now().toString(), name: name, tasks: []};
+}
+
+//creates list of lists (my list), refreshes after a new item is added
 function render() {
   clearElement(listsContainer);
   lists.forEach(list => {
