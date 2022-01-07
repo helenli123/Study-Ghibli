@@ -15,13 +15,13 @@ html {
 
 /* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: serif, cursive;
-  line-height: 1.5;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 /* images and videos max out at full width */
@@ -255,5 +255,3 @@ video {
   width: 35vh;
   height: 65vh;
 }
-
-/*Madison*/
