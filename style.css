@@ -30,7 +30,6 @@ video {
   height: auto;
   max-width: 100%;
 }
-
 /*Madison*/
 .study1 {
   min-height: 100%;
@@ -53,7 +52,7 @@ video {
 .music-container {
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+  box-shadow: 0 20px 20px 0 rgba(121,13,13,0.6);
   display: flex;
   padding: 20px 30px;
   position: relative;
