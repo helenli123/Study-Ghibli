@@ -11,13 +11,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0;
   color: rgb(255, 255, 255);
   font-family: "Gemunu Libre", sans-serif;
   text-align: left;
-  margin: 0;
 }
 
-
+.study1 h2
+{
+  justify-content: left;
+  color: rgb(255, 255, 255);
+  font-family: "Gemunu Libre", sans-serif;
+  text-align: left;
+}
 .music-container {
   background-color: white;
   border-radius: 15px;

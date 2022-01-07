@@ -95,8 +95,7 @@ video {
 /*Kelly*/
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-top: 0%;
   font-size: 4em;
   text-align: center;
   color: #e368b2;
@@ -105,22 +104,14 @@ video {
 
 .bord {
   border: 2vh purple solid;
-  position: absolute;
-  margin: 0px;
-  overflow: hidden;
-  top: 0px;
-  bottom: 0px;
-  width: 100%;
 }
 
 .images {
   display: flex;
-  margin-left: 3%;
-  margin-right: 3%;
   justify-content: space-between;
 }
 
 .dirImg {
   width: 35vh;
-  height: 65vh;
+  height: 60vh;
 }

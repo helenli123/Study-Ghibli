@@ -13,7 +13,7 @@ const durTime = document.querySelector('#durTime');
 
 // Song titles
 const songs = ['One Summers Day', 'Day of The River', 'Always With Me'];
-
+const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/%5BMP3DOWNLOAD.TO%5D%20Joe%20Hisaishi%20-%20One%20Summer's%20Day%20-%20Spirited%20Away%20Soundtrack%20432Hz-320k.mp3?v=1641587613850", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Always%20With%20Me.mp3?v=1641539012173"];
 // Keep track of song
 let songIndex = 2;
 
@@ -23,7 +23,7 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One%20Summers%20Day%20-%20Joe%20Hisaishi.mp3?v=1641538998059";
+  audio.src = music[songIndex];
   cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729";
 }
 
