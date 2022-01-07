@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753);
+  background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 .music-container {
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+  box-shadow: 0 20px 20px 0 rgba(92, 8, 8, 0.6);
   display: flex;
   padding: 20px 30px;
   position: relative;
