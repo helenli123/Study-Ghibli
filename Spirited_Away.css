@@ -27,8 +27,8 @@ body {
 
 .Music-Player h2 {
   letter-spacing: 3px;
-  margin-top: 170px;
-  margin-left: 75px;
+ /* margin-top: 170px;
+  margin-left: 75px;*/
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: "Gemunu Libre", sans-serif;
@@ -52,9 +52,10 @@ body {
 }
 
 #container {
-  height: 120px;
+  height: 140px;
   width: 300px;
   background-color: #FFFFFF;
+  box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   margin: 0px;
   border-radius:15px;
   display: grid;
@@ -70,9 +71,9 @@ body {
 
 .label {
   margin: 0;
-
   justify-self: left;
   align-self: left;
+  color:black;
   font-size: 20px;
 }
 
@@ -96,12 +97,12 @@ body {
   border-radius: 12px;
   background-color: rgb(220,220,220);
   font-size: 35px;
-  width: 70px;
+  width: 83px;
   height: 50px;
 }
 
 #hour {
-  grid-area: 2 / 2 / 2 / 3;
+  grid-area: 2 / 2 / 2 / 2;
 }
 
 .semicolon {
@@ -130,8 +131,8 @@ body {
 /*buttons*/
 
 .btn {
-  width: 100px;
-  height: 40px;
+  width: 90px;
+  height: 30px;
 
   font-size: 30px;
   justify-self: center;
@@ -139,6 +140,7 @@ body {
 
 #start {
   font-family: "Gemunu Libre", sans-serif;
+  font-size:20px;
   color:white;
   border-radius: 12px;
   background-color:#752C2A;
@@ -146,18 +148,19 @@ body {
   align-self:left;
   grid-area: 3 / 2 / 3 / 4;
   width: 80px;
-  height: 40px;
+  height: 30px;
 }
 
 #reset {
   font-family: "Gemunu Libre", sans-serif;
+  font-size:20px;
   color:white;
   border-radius: 12px;
   background-color:#752C2A;
   border:none;
   align-self:right;
   width: 80px;
-  height: 40px;
+  height: 30px;
   grid-area: 3 / 3 / 3 / 5;
 }
 
@@ -165,8 +168,8 @@ body {
 .music-container {
   background-color: white;
   width: 23%;
-  left: 50px;
-  bottom: -250px;
+  /*left: 50px;
+  bottom: -250px;*/
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   display: flex;
@@ -240,6 +243,7 @@ body {
 .action-btn.action-btn-big {
   color: #898789;
   font-size: 35px;
+  border:0;
 }
 
 .action-btn:focus {
@@ -268,6 +272,7 @@ body {
 .music-info h4 {
   margin: 0;
   letter-spacing: 1px;
+  font-size:18px;
   color: black;
 }
 
