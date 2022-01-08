@@ -27,8 +27,8 @@ body {
 
 .Music-Player h2 {
   letter-spacing: 3px;
- /* margin-top: 170px;
-  margin-left: 75px;*/
+   margin-top: 40px;
+  margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: "Gemunu Libre", sans-serif;
@@ -44,20 +44,22 @@ body {
 
 .Timer h2 {
   letter-spacing: 3px;
-  margin-top: 100px;
-  margin-left: 75px;
+  margin-top:150px;
+  margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
+  font-weight:bold;
   font-family: "Gemunu Libre", sans-serif;
 }
 
 #container {
-  height: 120px;
+  height: 130px;
   width: 300px;
   background-color: #FFFFFF;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
-  margin: 0px;
+  margin: -20px;
   border-radius:15px;
+  margin-left: 35px;
   display: grid;
   flex-direction: column;
   align-items: center;
@@ -113,7 +115,7 @@ body {
   margin: 0;
 }
 #p1 {
-  grid-area: 2 / 2 / 2 / 4;
+  grid-area: 2 / 2 / 2 / 5;
 }
 
 #minute {
@@ -168,14 +170,14 @@ body {
 .music-container {
   background-color: white;
   width: 23%;
-  /*left: 50px;
-  bottom: -250px;*/
+  left: 35px;
+  bottom: 20px;
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   display: flex;
   padding: 20px 30px;
   position: relative;
-  margin: 100px 0;
+  margin: 50px 0;
   z-index: 10;
 }
 
