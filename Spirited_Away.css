@@ -374,7 +374,6 @@ body {
 .task {
   position: relative;
   margin-bottom: 1.25em;
-  border: 3px solid red;
 }
 
 .task-list {
