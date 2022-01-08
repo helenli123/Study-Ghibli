@@ -27,7 +27,7 @@ body {
 
 .Music-Player h2 {
   letter-spacing: 3px;
-   margin-top: 40px;
+  margin-top: 40px;
   margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
@@ -44,21 +44,21 @@ body {
 
 .Timer h2 {
   letter-spacing: 3px;
-  margin-top:150px;
+  margin-top: 150px;
   margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
-  font-weight:bold;
+  font-weight: bold;
   font-family: "Gemunu Libre", sans-serif;
 }
 
 #container {
   height: 130px;
   width: 300px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   margin: -20px;
-  border-radius:15px;
+  border-radius: 15px;
   margin-left: 35px;
   display: grid;
   flex-direction: column;
@@ -68,14 +68,14 @@ body {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(4, 1fr);
   font-family: "Gemunu Libre", sans-serif;
-  color:#752C2A;
+  color: #752c2a;
 }
 
 .label {
   margin: 0;
   justify-self: left;
   align-self: left;
-  color:black;
+  color: black;
   font-size: 20px;
 }
 
@@ -97,7 +97,7 @@ body {
 
   border: none;
   border-radius: 12px;
-  background-color: rgb(220,220,220);
+  background-color: rgb(220, 220, 220);
   font-size: 30px;
   width: 70px;
   height: 50px;
@@ -142,12 +142,12 @@ body {
 
 #start {
   font-family: "Gemunu Libre", sans-serif;
-  font-size:20px;
-  color:white;
+  font-size: 20px;
+  color: white;
   border-radius: 12px;
-  background-color:#752C2A;
-  border:none;
-  align-self:left;
+  background-color: #752c2a;
+  border: none;
+  align-self: left;
   grid-area: 5 / 2 / 3 / 2;
   width: 80px;
   height: 30px;
@@ -155,12 +155,12 @@ body {
 
 #reset {
   font-family: "Gemunu Libre", sans-serif;
-  font-size:20px;
-  color:white;
+  font-size: 20px;
+  color: white;
   border-radius: 12px;
-  background-color:#752C2A;
-  border:none;
-  align-self:right;
+  background-color: #752c2a;
+  border: none;
+  align-self: right;
   width: 80px;
   height: 30px;
   grid-area: 5 / 4 / 3 / 8;
@@ -245,7 +245,7 @@ body {
 .action-btn.action-btn-big {
   color: #898789;
   font-size: 35px;
-  border:0;
+  border: 0;
 }
 
 .action-btn:focus {
@@ -274,7 +274,7 @@ body {
 .music-info h4 {
   margin: 0;
   letter-spacing: 1px;
-  font-size:18px;
+  font-size: 18px;
   color: black;
 }
 
