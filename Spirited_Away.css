@@ -308,7 +308,6 @@ body {
 }
 
 /*todo list*/
-
 .todo-list {
   border: 2px solid black;
   margin: 5%;
@@ -316,7 +315,7 @@ body {
   font-weight: 300;
   font-size: 20px;
    right: 400px;
-  width: 200px;
+  width: 400px;
   height: 100px;
   
   background-color: white;
@@ -327,12 +326,15 @@ body {
 } 
 
 .todo-header {
+  
   height: 100%;
+  width: 100%;
   background: #CCCCCC;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
 }
 
 .title {
@@ -489,6 +491,7 @@ form {
 .todo-body {
   padding: var(--spacer);
   position: relative;
+  border: 3px solid blue;
 }
 
 .new-task-creator .create {
@@ -509,6 +512,7 @@ form {
 .task {
   position: relative;
   margin-bottom: 1.25em;
+  border: 3px solid red;
 }
 
 .task::after {
