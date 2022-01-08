@@ -42,17 +42,7 @@ video {
 {
   margin-top: 50px;
 }
-.button
-{
-  display: in-line;
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 30px;
-  color:rgb(160,20,184);
-  text-align:center;
-  text-decoration: none;
-  border-radius:12px;
-  border: none;
-}
+
 .intropage {
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
   no-repeat center center fixed;
@@ -62,6 +52,46 @@ video {
   overflow: hidden;
 }
 
+.button-cover {
+	font-family:"Gemunu Libre", sans-serif; 
+	color: #ffffff;
+	font-size: 16px;
+	border-radius: 13px;
+	border: 0px #3866a3 solid;
+	background: linear-gradient(184deg, #9463ee 31%, #5a46cf 78%);
+	text-shadow: 1px -2px 3px #000000;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: left;
+   margin-left: -1400px;
+  margin-top: 20px;
+}
+
+.button-icon {
+	padding: 9px 10px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.button-icon svg {
+	vertical-align: middle;
+	position: relative;
+	font-size: 31px;
+	top: -1px;
+}
+.button-text {
+	padding: 9px 12px;
+}
+.button-text span{
+	display: block;
+	position: relative;
+	left: -6px;
+}
+
+.button
+{
+  
+}
 .welcome {
   text-align: center;
   margin: 10px;

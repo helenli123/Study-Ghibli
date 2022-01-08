@@ -327,7 +327,7 @@ body {
 .todo-header {
   height: 100%;
   width: 100%;
-  background: #CCCCCC;
+  background: rgb(0, 0, 0, 0.5);
   margin: 0;
   display: flex;
   align-items: center;
@@ -351,21 +351,22 @@ body {
 .all-tasks{
   position: relative;
   border: 2px solid black;
+  border-radius: 20%;
+  background-color: rgb(255, 255, 255, 0.5);
   width: 20%;
-  left: 45%;
+  left: 43%;
   bottom: 67%;
   margin: 0;
   font-family: "Gemunu Libre", sans-serif;
-  font-weight: 300;
+  font-weight: 900;
   font-size: 20px;
-  
   
 }
 
 .todo-body {
   padding: var(--spacer);
   position: relative;
-  border: 3px solid blue;
+  border: 2px solid black;
   top: 10vh;
   left: 50vh;
 }
@@ -381,7 +382,7 @@ body {
   font-size: 1.2rem;
   line-height: 1.7;
   list-style: circle;
-  padding-left: 1.1em;
+  padding-left: 2em;
 }
 
 .list-name {
