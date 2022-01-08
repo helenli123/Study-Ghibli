@@ -14,9 +14,40 @@
   </head>
   <body>
     <!-- this is the start of content -->
-    <audio controls autoplay style="display:none">
-  <source src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Weathering%20with%20You%20%2B%20Your%20Name%20OST%20_%20Sky%20Clearing%20Up%20%2B%20Katawaredoki%20(piano%20cover).mp3?v=1641599044612" type="audio/ogg">
-</audio>
+    
+    <button class="button-cover2" onclick="toggleFullScreen()">
+      <audio controls autoplay style="display: none">
+          <source
+            src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Weathering%20with%20You%20%2B%20Your%20Name%20OST%20_%20Sky%20Clearing%20Up%20%2B%20Katawaredoki%20(piano%20cover).mp3?v=1641599044612"
+            type="audio/ogg"
+          />
+        </audio>
+        <span class="button-icon"
+          ><svg
+            width="31"
+            height="31"
+            viewbox="2 2 16 16"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 11.5a.5.5 0 01.5.5v3.5H8a.5.5 0 010 1H4a.5.5 0 01-.5-.5v-4a.5.5 0 01.5-.5z"
+              clip-rule="evenodd"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M8.854 11.11a.5.5 0 010 .708l-4.5 4.5a.5.5 0 11-.708-.707l4.5-4.5a.5.5 0 01.708 0zm7.464-7.464a.5.5 0 010 .708l-4.5 4.5a.5.5 0 11-.707-.708l4.5-4.5a.5.5 0 01.707 0z"
+              clip-rule="evenodd"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M11.5 4a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v4a.5.5 0 01-1 0V4.5H12a.5.5 0 01-.5-.5z"
+              clip-rule="evenodd"
+            /></svg
+        ></span>
+      </button>
+
     <h1 id="dirHead">Where do you want to go?</h1>
     
     <section class="images">

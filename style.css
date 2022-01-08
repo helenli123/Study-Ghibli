@@ -52,18 +52,29 @@ video {
   overflow: hidden;
 }
 
-.button-cover{
+.button-cover1{
 	border-radius: 12px;
 	background: #E1C7E6;
 	text-shadow: 1px -2px 3px #000000;
 	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
 	cursor: pointer;
 	display: flex;
-	align-items: left;
-  margin-left: -1440px;
-  margin-top: 20px;
+	align-items: right;
+  margin-left: 1480px;
   border: none;
-  margin:none;
+}
+
+.button-cover2{
+	border-radius: 12px;
+	background: #E1C7E6;
+	text-shadow: 1px -2px 3px #000000;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	cursor: pointer;
+	display: flex;
+	align-items: right;
+  margin-left: 1440px;
+  margin-top: -100px;
+  border: none;
 }
 
 .button-icon {
@@ -149,6 +160,11 @@ video {
 
 /*Kelly*/
 
+  display: flex;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
   font-size: 4em;
@@ -159,10 +175,13 @@ video {
 }
 
 .bord {
+  display:flex;
   border: 2vh purple solid;
   overflow: hidden;
+  background-size:cover;
   height: 100%;
   width: 100%;
+  margin: none;
 }
 
 .images {
