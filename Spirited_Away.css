@@ -308,13 +308,12 @@ body {
 }
 
 /*todo list*/
-.todo-list {
-  border: 2px solid black;
+ .todo-list {
   margin: 5%;
   font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
   font-size: 20px;
-   right: 400px;
+  right: 400px;
   width: 400px;
   height: 100px;
   
@@ -323,10 +322,9 @@ body {
   position: absolute;
   display: column;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
-} 
+}  
 
 .todo-header {
-  
   height: 100%;
   width: 100%;
   background: #CCCCCC;
@@ -334,7 +332,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
+  top: 10vh;
+  left: 50vh;
 }
 
 .title {
@@ -351,14 +351,29 @@ body {
 .all-tasks{
   position: relative;
   border: 2px solid black;
-  width: 50%;
-  left: 50%;
-  bottom: 50%;
+  width: 20%;
+  left: 45%;
+  bottom: 67%;
   margin: 0;
   font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
   font-size: 20px;
   
+  
+}
+
+.todo-body {
+  padding: var(--spacer);
+  position: relative;
+  border: 3px solid blue;
+  top: 10vh;
+  left: 50vh;
+}
+
+.task {
+  position: relative;
+  margin-bottom: 1.25em;
+  border: 3px solid red;
 }
 
 .task-list {
@@ -488,11 +503,7 @@ form {
   font-size: 1rem;
 }
 
-.todo-body {
-  padding: var(--spacer);
-  position: relative;
-  border: 3px solid blue;
-}
+
 
 .new-task-creator .create {
   color: var(--clr-primary);
@@ -509,11 +520,7 @@ form {
   position: relative;
 }
 
-.task {
-  position: relative;
-  margin-bottom: 1.25em;
-  border: 3px solid red;
-}
+
 
 .task::after {
   content: "";

@@ -42,7 +42,17 @@ video {
 {
   margin-top: 50px;
 }
-
+.button
+{
+  display: in-line;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 30px;
+  color:rgb(160,20,184);
+  text-align:center;
+  text-decoration: none;
+  border-radius:12px;
+  border: none;
+}
 .intropage {
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
   no-repeat center center fixed;
