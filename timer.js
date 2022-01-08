@@ -1,6 +1,6 @@
 var start = document.getElementById('start');
 var reset = document.getElementById('reset');
-var stop = document.getElementByID('stop');
+var stop = document.getElementById('stop');
 
 var h = document.getElementById("hour");
 var m = document.getElementById("minute");
@@ -29,11 +29,11 @@ reset.addEventListener('click', function(){
 
 stop.addEventListener('click', function()
 {
-    stopInterval();
+    stopInterval()
 })
 
 function timer(){
-    if(h.value == 0 && m.value == 0 && s.value == 0){
+  if(h.value == 0 && m.value == 0 && s.value == 0){
         h.value = 0;
         m.value = 0;
         s.value = 0;
