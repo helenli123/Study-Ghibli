@@ -78,15 +78,6 @@ video {
 	top: -1px;
 }
 
-.fullscreen button
-{
-  background-color: #E1C7E6; 
-  border: none;
-  padding: .5em 1.25em;
-  border-radius: 12px;
-  margin-left:-745px;
-  margin-top:10px;
-}
 .welcome {
   text-align: center;
   margin: 10px;
