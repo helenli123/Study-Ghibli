@@ -351,11 +351,11 @@ body {
 .all-tasks{
   position: relative;
   border: 2px solid black;
-  border-radius: 20%;
+  border-radius: 15%;
   background-color: rgb(255, 255, 255, 0.5);
   width: 20%;
   left: 43%;
-  bottom: 67%;
+  bottom: 67.5%;
   margin: 0;
   font-family: "Gemunu Libre", sans-serif;
   font-weight: 900;
@@ -384,6 +384,16 @@ body {
   list-style: circle;
   padding-left: 2em;
 }
+.task-list-title{
+  
+  margin-left: 10px;
+  
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  
+}
 
 .list-name {
   cursor: pointer;
@@ -401,14 +411,13 @@ form {
   cursor: pointer;
   background: 0;
   border: 0;
-  padding: 0;
+  padding: .5em;
   color: inherit;
 }
 
 .btn.create {
   font-size: 1.5rem;
   font-weight: 900;
-  margin-right: 0.25em;
   transition: opacity 250ms ease-in;
 }
 

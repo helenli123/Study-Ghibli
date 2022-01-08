@@ -53,25 +53,23 @@ video {
 }
 
 .button-cover {
-	font-family:"Gemunu Libre", sans-serif; 
-	color: #ffffff;
-	font-size: 16px;
-	border-radius: 13px;
-	border: 0px #3866a3 solid;
-	background: linear-gradient(184deg, #9463ee 31%, #5a46cf 78%);
+	border-radius: 12px;
+	background: #E1C7E6;
 	text-shadow: 1px -2px 3px #000000;
 	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
 	cursor: pointer;
-	display: inline-flex;
+	display: flex;
 	align-items: left;
-   margin-left: -1400px;
+  margin-left: -1440px;
   margin-top: 20px;
+  border: none;
+  margin:none;
 }
 
 .button-icon {
 	padding: 9px 10px;
 	border-right: 1px solid rgba(255, 255, 255, 0.16);
-	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+	color:rgb(129,12,148);
 }
 .button-icon svg {
 	vertical-align: middle;
@@ -79,18 +77,15 @@ video {
 	font-size: 31px;
 	top: -1px;
 }
-.button-text {
-	padding: 9px 12px;
-}
-.button-text span{
-	display: block;
-	position: relative;
-	left: -6px;
-}
 
-.button
+.fullscreen button
 {
-  
+  background-color: #E1C7E6; 
+  border: none;
+  padding: .5em 1.25em;
+  border-radius: 12px;
+  margin-left:-745px;
+  margin-top:10px;
 }
 .welcome {
   text-align: center;
