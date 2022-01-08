@@ -310,7 +310,8 @@ body {
 /*todo list*/
 
 .todo-list {
-  margin: 0;
+  border: 2px solid black;
+  margin: 5%;
   font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -323,6 +324,15 @@ body {
   position: absolute;
   display: column;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
+} 
+
+.todo-header {
+  height: 100%;
+  background: #CCCCCC;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .title {
@@ -339,6 +349,7 @@ body {
 .all-tasks{
   position: relative;
   border: 2px solid black;
+  width: 50%;
   left: 50%;
   bottom: 50%;
   margin: 0;
@@ -464,14 +475,7 @@ form {
   color: var(--clr-dark);
 }
 
-.todo-header {
-  padding: var(--spacer);
-  background: #CCCCCC;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 .list-title {
   margin: 0 1em 0 0;
