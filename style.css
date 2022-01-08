@@ -40,10 +40,7 @@ video {
 
 .audio
 {
-  display:block;
-  width:10%;
-  background-color: rgb(243, 171, 255);
-  
+  margin-top: 50px;
 }
 
 .intropage {

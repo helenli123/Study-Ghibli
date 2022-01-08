@@ -53,17 +53,25 @@ function save() {
   localStorage.setItem(LOCAL_STORAGE_SELECTED_LIST_ID_KEY, selectedListId);
 }
 
-//renders list of lists and list container. 
+//renders list of lists and list/task container
 function render() {
   clearElement(listsContainer);
   renderLists();
   
-  if (selectedListId == null) {
-    listDisplayContainer.style.display = 'none';
+  const selectedList = lists.find(list => list.id === selectedListId);
+  
+  if (selectedListId == null) {  //if no list is selected, the task container doesn't show up
+    listDisplayContainer.style.display = 'none';  
   }
   else {
     listDisplayContainer.style.display = '';
+    listTitleElement.innerText = selectedList.name;
+    renderTaskCount(selectedList);
   }
+}
+
+function renderTaskCount(selectedList) {
+  const incompleteTaskCount = selectedList.
 }
 
 //creates list of lists (my list), refreshes after a new item is added

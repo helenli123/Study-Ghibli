@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
 
     <title>"Study Ghibli"</title>
@@ -11,12 +11,35 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="music.css" />
+    <link rel="stylesheet" href="Spirited_Away.css" />
 
     <!-- import the webpage's javascript file -->
   </head>
   <body>
     <!-- this is the start of content -->
+    <div id="container">
+      <p id="hour-label" class="label">Hours</p>
+      <p id="min-label" class="label">Minutes</p>
+      <p id="sec-label" class="label">Seconds</p>
+      <input id="hour" type="number" max="99" min="0" value="0" class="time" />
+      <p id="p1" class="semicolon">:</p>
+      <input
+        id="minute"
+        type="number"
+        max="60"
+        min="0"
+        value="0"
+        class="time"
+      />
+      <p id="p2" class="semicolon">:</p>
+      <input id="sec" type="number" max="60" min="0" value="0" class="time" />
+      <button id="start" class="btn">Start</button>
+      <button id="reset" class="btn">Reset</button>
+    </div>
+    <div class="Timer">
+      <h2>Timer</h2>
+    </div>
+
     <div class="music-container" id="music-container">
       <div class="music-info">
         <h4 id="title"></h4>
@@ -25,9 +48,17 @@
         </div>
       </div>
 
-      <audio src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059" id="audio"></audio>
+      <audio
+        src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059"
+        id="audio"
+      ></audio>
+
       <div class="img-container">
-        <img src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729" alt=" " id="cover" />
+        <img
+          src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729"
+          alt=" "
+          id="cover"
+        />
       </div>
 
       <div class="navigation">
@@ -41,10 +72,12 @@
           <i class="fas fa-forward"></i>
         </button>
       </div>
-      </div>
-    <div class = "study1">
+    </div>
+
+    <div class="Music-Player">
       <h2>Music Player</h2>
-  </div>
-     <script src="music.js"></script>
+    </div>
+
+    <script src="music.js"></script>
   </body>
 </html>
