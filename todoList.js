@@ -6,6 +6,7 @@ const listDisplayContainer = document.querySelector('[data-list-display-containe
 const listTitleElement = document.querySelector('[data-list-title]');
 const listCountElement = document.querySelector('[data-list-count]');
 const tasksContainer = document.querySelector('[data-tasks]');
+const taskTemplate = document.getElementById('task-template');
 
 const LOCAL_STORAGE_LIST_KEY = 'task.lists';
 const LOCAL_STORAGE_SELECTED_LIST_ID_KEY = 'task.selectedListId';
@@ -67,11 +68,29 @@ function render() {
     listDisplayContainer.style.display = '';
     listTitleElement.innerText = selectedList.name;
     renderTaskCount(selectedList);
+    clearElement(tasksContainer);
+    renderTasks(selectedList);
   }
 }
 
+//shows the tasks for the list that's selected
+function renderTasks(selectedList) {
+  selectedList.tasks.forEach(task => {
+    const taskElement = document.importNode(taskTemplate.content, true);
+    const checkbox = taskElement.querySelector('input');
+    checkbox.id = task.id;
+    checkbox.checked = task.complete;
+    const label = taskElement.querySelector('label');
+    label.htmlFor = task.id;
+    label.append(task.name);
+    tasksContainer.appendChild(taskElement);
+  })
+}
+
 function renderTaskCount(selectedList) {
-  const incompleteTaskCount = selectedList.
+  const incompleteTaskCount = selectedList.tasks.filter(task => !task.complete).length;
+  const taskString = incompleteTaskCount === 1 ? "task" : "tasks";
+  listCountElement.innerText = `${incompleteTaskCount} ${taskString} remaining`;
 }
 
 //creates list of lists (my list), refreshes after a new item is added
