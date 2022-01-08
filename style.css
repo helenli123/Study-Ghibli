@@ -73,7 +73,7 @@ video {
 	display: flex;
 	align-items: right;
   margin-left: 1440px;
-  margin-top: -100px;
+  margin-top: -140px;
   border: none;
 }
 
@@ -160,10 +160,6 @@ video {
 
 /*Kelly*/
 
-  display: flex;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
 
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
