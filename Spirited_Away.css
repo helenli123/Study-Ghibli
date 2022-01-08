@@ -9,7 +9,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
   margin: 20;
   color: rgb(255, 255, 255);
   font-family: "Gemunu Libre", sans-serif;
@@ -132,7 +131,7 @@ body {
 
 /*buttons*/
 
-.btn {
+.button {
   width: 90px;
   height: 30px;
 
@@ -248,7 +247,7 @@ body {
   border: 0;
 }
 
-.action-btn:focus {
+.action-button:focus {
   outline: 0;
 }
 
@@ -296,28 +295,15 @@ body {
 }
 
 
-
-:root {
-  --clr-primary: rgb(54, 112, 199);
-  --clr-light: #f4f4f4;
-  --clr-dark: #333;
-  --clr-warning: rgb(99, 36, 36);
-}
-
-*,
-*::before,
-*::after {
-  font-family: inherit;
-  box-sizing: border-box;
-}
-
-body {
+.todo-list {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
-  background-color: var(--clr-primary);
-  color: var(--clr-light);
+  font-size: 20px;
+  
+  align-items: right;
+  background-color: white;
+  color: white;
   display: grid;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
 }
