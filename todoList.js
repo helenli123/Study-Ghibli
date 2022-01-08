@@ -2,6 +2,10 @@ const listsContainer = document.querySelector('[data-lists]');
 const newListForm = document.querySelector('[data-new-list-form]');
 const newListInput = document.querySelector('[data-new-list-input]');
 const deleteListButton = document.querySelector('[data-delete-list-button]');
+const listDisplayContainer = document.querySelector('[data-list-display-container]');
+const listTitleElement = document.querySelector('[data-list-title]');
+const listCountElement = document.querySelector('[data-list-count]');
+const tasksContainer = document.querySelector('[data-tasks]');
 
 const LOCAL_STORAGE_LIST_KEY = 'task.lists';
 const LOCAL_STORAGE_SELECTED_LIST_ID_KEY = 'task.selectedListId';
@@ -49,9 +53,21 @@ function save() {
   localStorage.setItem(LOCAL_STORAGE_SELECTED_LIST_ID_KEY, selectedListId);
 }
 
-//creates list of lists (my list), refreshes after a new item is added
+//renders list of lists and list container. 
 function render() {
   clearElement(listsContainer);
+  renderLists();
+  
+  if (selectedListId == null) {
+    listDisplayContainer.style.display = 'none';
+  }
+  else {
+    listDisplayContainer.style.display = '';
+  }
+}
+
+//creates list of lists (my list), refreshes after a new item is added
+function renderLists() {
   lists.forEach(list => {
     const listElement = document.createElement('li');
     listElement.dataset.listId = list.id;
