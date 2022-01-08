@@ -335,21 +335,17 @@ body {
   margin:rgba(255,1,1,0.1)
 }
 
+/* .all-tasks {
 
-.all-tasks{
-  position: relative;
-  border: 2px solid black;
-  left: 50%;
-  bottom: 50%;
   margin: 0;
   font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  
-}
+
+} */
 
 .task-list {
- 
+  float: right;
   font-size: 1.2rem;
   line-height: 1.7;
   list-style: circle;
