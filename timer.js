@@ -1,5 +1,6 @@
 var start = document.getElementById('start');
 var reset = document.getElementById('reset');
+var stop = document.getElementByID('stop');
 
 var h = document.getElementById("hour");
 var m = document.getElementById("minute");
@@ -24,6 +25,11 @@ reset.addEventListener('click', function(){
     s.value = 0;
     //stop the timer after pressing "reset"
     stopInterval()
+})
+
+stop.addEventListener('click', function()
+{
+    stopInterval();
 })
 
 function timer(){

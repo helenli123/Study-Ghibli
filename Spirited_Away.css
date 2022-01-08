@@ -53,7 +53,7 @@ body {
 
 #container {
   height: 130px;
-  width: 300px;
+  width: 360px;
   background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   margin: -20px;
@@ -64,7 +64,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   text-align: left;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(4, 1fr);
   font-family: "Gemunu Libre", sans-serif;
   color: #752c2a;
@@ -162,9 +162,22 @@ body {
   align-self: right;
   width: 80px;
   height: 30px;
-  grid-area: 5 / 4 / 3 / 8;
+  grid-area: 5 / 6 / 3 / 8;
 }
 
+#stop
+{
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  background-color: #752c2a;
+  border: none;
+  align-self: right;
+  width: 80px;
+  height: 30px;
+  grid-area: 5 / 4 / 3 / 5;
+}
 /*music*/
 .music-container {
   background-color: white;
@@ -294,6 +307,8 @@ body {
   transition: width 0.1s linear;
 }
 
+/*todo list*/
+
 .todo-list {
   margin: 0;
   font-family: "Gemunu Libre", sans-serif;
@@ -322,6 +337,13 @@ body {
 
 .all-tasks {
   grid-area: lists;
+  margin: 0;
+  font-family: "Gemunu Libre", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  right: 400px;
+  width: 200px;
+  height: 100px;
 }
 
 .task-list {
@@ -441,14 +463,8 @@ form {
 
 .todo-header {
   padding: var(--spacer);
-  background: #B6B6B6;
+  background: #CCCCCC;
   margin: 0;
-  font-family: "Gemunu Libre", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-   right: 400px;
-  width: 200px;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
