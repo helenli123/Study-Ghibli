@@ -1,0 +1,221 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>"Study Ghibli"</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="kellyTestCorner.css" />
+
+    <!-- import the webpage's javascript file -->
+  </head>
+  <body class="kzBody">
+    <!-- this is the start of content -->
+    <div class="buttons1" onclick="toggleFullScreen()">
+      <span class="button-icon"
+        ><svg
+          width="31"
+          height="31"
+          viewbox="2 2 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4 11.5a.5.5 0 01.5.5v3.5H8a.5.5 0 010 1H4a.5.5 0 01-.5-.5v-4a.5.5 0 01.5-.5z"
+            clip-rule="evenodd"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M8.854 11.11a.5.5 0 010 .708l-4.5 4.5a.5.5 0 11-.708-.707l4.5-4.5a.5.5 0 01.708 0zm7.464-7.464a.5.5 0 010 .708l-4.5 4.5a.5.5 0 11-.707-.708l4.5-4.5a.5.5 0 01.707 0z"
+            clip-rule="evenodd"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M11.5 4a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v4a.5.5 0 01-1 0V4.5H12a.5.5 0 01-.5-.5z"
+            clip-rule="evenodd"
+          /></svg
+      ></span>
+    </div>
+
+    <a href="index.html">
+    <div class="buttons2">
+      <span class="button-icon"
+        ><svg
+          width="31"
+          height="31"
+          viewbox="2 2 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.5 12.995V16.5a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5V13c0-.25-.25-.5-.5-.5H9c-.25 0-.5.25-.5.495z"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z"
+            clip-rule="evenodd"
+          /></svg
+      ></span>
+    </div>
+      </a>
+<a href="directory.html">
+    <div class="buttons3">
+      <span class="button-icon"
+        ><svg
+          width="31"
+          height="31"
+          viewbox="2 2 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10 4.5A5.5 5.5 0 114.5 10a.5.5 0 00-1 0 6.5 6.5 0 103.25-5.63l.5.865A5.472 5.472 0 0110 4.5z"
+            clip-rule="evenodd"
+          />
+          <path
+            fill-rule="evenodd"
+            d="M9.354 1.646a.5.5 0 00-.708 0l-2.5 2.5a.5.5 0 000 .708l2.5 2.5a.5.5 0 10.708-.708L7.207 4.5l2.147-2.146a.5.5 0 000-.708z"
+            clip-rule="evenodd"
+          /></svg
+      ></span>
+    </div>
+  </a>
+    
+    <div class="Timer">
+      <h2>Timer</h2>
+    </div>
+
+    <div id="container">
+      <p id="hour-label" class="label">Hours</p>
+      <p id="min-label" class="label">Minutes</p>
+      <p id="sec-label" class="label">Seconds</p>
+      <input id="hour" type="number" max="99" min="0" value="0" class="time" />
+      <p id="p1" class="semicolon">:</p>
+      <input
+        id="minute"
+        type="number"
+        max="60"
+        min="0"
+        value="0"
+        class="time"
+      />
+      <p id="p2" class="semicolon">:</p>
+      <input id="sec" type="number" max="60" min="0" value="0" class="time" />
+      <button id="start" class="button">Start</button>
+      <button id="reset" class="button">Reset</button>
+      <button id="stop" class="button">Stop</button>
+    </div>
+
+    <div class="Music-Player">
+      <h2>Music Player</h2>
+    </div>
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio
+        src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059"
+        id="audio"
+      ></audio>
+
+      <div class="img-container">
+        <img
+          src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729"
+          alt=" "
+          id="cover"
+        />
+      </div>
+
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <!------------------------------------------todo list------------------------------------------->
+    <section class="kzSec">
+      <div class="all-tasks">
+        <h2 class="task-list-title">My lists</h2>
+        <ul class="task-list" data-lists>
+        </ul>
+
+        <form action="" data-new-list-form>
+          <input 
+            type="text"
+            class="new list"
+            data-new-list-input
+            placeholder="new list name"
+            aria-label="new list name"
+          />
+          <button class="btn create" aria-label="create new list">+</button>
+        </form>
+      </div>
+
+      <div class="todo-list" data-list-display-container>
+        <div class="todo-header">
+          <h2 class="list-title" data-list-title>YouTube</h2>
+          <p class="task-count" data-list-count>3 tasks remaining</p>
+        </div>
+
+        <div class="todo-body">
+          <div class="tasks" data-tasks>
+          </div>
+
+          <div class="new-task-creator">
+              <form action="" data-new-task-form>
+                  <input 
+                    type="text"
+                    data-new-task-input
+                    class="new task"
+                    placeholder="new task name"
+                    aria-label="new task name"
+                  />
+                  <button class="btn create" aria-label="create new task">+</button>
+                </form>
+          </div>
+
+          <div class="delete-stuff">
+            <button class="btn delete" data-clear-complete-tasks-button>Clear completed tasks</button>
+            <button class="btn delete" data-delete-list-button>Delete list</button>
+          </div>                      <!--let's us select in js-->
+        </div>
+      </div>
+    </section>
+
+   
+    <!--</div>-->
+    <template id = "task-template">
+      <div class="task">
+        <input 
+          type="checkbox"/>
+        <label>
+          <span class="custom-checkbox"></span>
+        </label>
+      </div>
+    </template>
+
+    <script src="todoList.js"></script>
+    <script src="music_Totoro.js"></script>
+    <script src="timer.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
