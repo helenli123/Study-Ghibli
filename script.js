@@ -41,15 +41,22 @@ function getCookie(c_name)
 }
 
 var song = document.getElementsByTagName('audio')[0];
+var restart = false;
 var played = false;
+var directory = false;
 var tillPlayed = getCookie('timePlayed');
 function update()
 {
-    if(!played){
-        if(tillPlayed){
+  if(document.getElementById("page1") !=null)
+    {
+    restart = true
+    }
+    if(!played && !directory){
+     if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
         played = true;
+       directory = true;
         }
         else {
                 song.play();
