@@ -13,6 +13,7 @@ body {
   font-family: "Gemunu Libre", sans-serif;
   text-align: left;
   /*overflow: hidden;*/
+  display: flex;
 }
 
 .buttons1
@@ -42,7 +43,7 @@ body {
 }
 .buttons3
 {
-   border-radius: 12px;
+  border-radius: 12px;
 	background: #761111;
 	display: flex;
   cursor: pointer;
@@ -65,14 +66,20 @@ body {
 }
 
 /*****************************************timer*****************************************/
+.timerMusic {
+  border: 5px pink solid;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #container {
   height: 130px;
   width: 360px;
   background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
-  margin: -20px;
   border-radius: 15px;
-  margin-left: 35px;
   display: grid;
   flex-direction: column;
   align-items: center;
@@ -85,17 +92,11 @@ body {
 }
 
 .Timer {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  margin: 20px;
+  border: 5px cyan solid;
 }
 
 .Timer h2 {
   letter-spacing: 3px;
-  margin-top: 50px;
-  margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
@@ -215,11 +216,7 @@ body {
 /*********************************music*********************************/
 .musicBody {
   border: 5px red solid;
-  /*height: 100vh;*/
   width: 50%;
-  /*display: flex;
-  flex-direction: column;
-  align-items: center;*/
   justify-content: center;
   margin: 0;
 }
@@ -231,8 +228,6 @@ body {
 
 .Music-Player h2 {
   letter-spacing: 3px;
-  /*margin-top: 40px;
-  margin-left: 50px;*/
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: "Gemunu Libre", sans-serif;
@@ -387,7 +382,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  background-color: var(--clr-primary);
+  /*background-color: var(--clr-primary);*/
   color: var(--clr-light);
   display: grid;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
