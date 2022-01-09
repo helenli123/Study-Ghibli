@@ -47,21 +47,19 @@ var directory = false;
 var tillPlayed = getCookie('timePlayed');
 function update()
 {
-  if(document.getElementById("page1") !=null)
+  if(document.getElementById("page1") ==null)
     {
     restart = true
     }
-    if(!played && !directory){
+  
+  if(!played && !directory && restart){
      if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
         played = true;
        directory = true;
         }
-        else {
-                song.play();
-                played = true;
-        }
+
     }
 
     else {
