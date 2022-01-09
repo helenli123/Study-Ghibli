@@ -12,7 +12,7 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Gemunu Libre", sans-serif;
   text-align: left;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .buttons1
@@ -161,7 +161,7 @@ body {
   grid-area: 2 / 5 / 2 / 8;
 }
 
-/*buttons*/
+/************************************buttons**********************/
 
 .button {
   width: 90px;
@@ -215,7 +215,8 @@ body {
 /*********************************music*********************************/
 .musicBody {
   border: 5px red solid;
-  height: 100vh;
+  /*height: 100vh;*/
+  width: 50%;
   /*display: flex;
   flex-direction: column;
   align-items: center;*/
@@ -227,14 +228,6 @@ body {
   margin-bottom: 3%;
   margin-left: 30%;
 }
-
-/*.Music-Player {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  margin: 20px;
-}*/
 
 .Music-Player h2 {
   letter-spacing: 3px;
@@ -389,7 +382,7 @@ body {
   box-sizing: border-box;
 }
 
-.kzBody {
+.testBody {
   margin: 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
