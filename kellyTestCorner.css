@@ -66,9 +66,23 @@ body {
 }
 
 /*****************************************timer*****************************************/
-.timerMusic {
-  /*border: 5px pink solid;*/
+.left {
+  height: 100vh;
   width: 50%;
+  /*border: 5px white solid;*/
+}
+
+.timerMusic {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+  width: 50%;
+  /*border: 5px pink solid;*/
+  height: 50vh;
+  /*margin-top: 10%;*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
