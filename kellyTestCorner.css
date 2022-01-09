@@ -63,21 +63,25 @@ body {
 	font-size: 31px;
 	top: -1px;
 }
-.Music-Player {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  margin: 20px;
-}
 
-.Music-Player h2 {
-  letter-spacing: 3px;
-  margin-top: 40px;
-  margin-left: 50px;
-  color: rgb(255, 255, 255);
-  font-size: 25px;
+/*****************************************timer*****************************************/
+#container {
+  height: 130px;
+  width: 360px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
+  margin: -20px;
+  border-radius: 15px;
+  margin-left: 35px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   font-family: "Gemunu Libre", sans-serif;
+  color: #752c2a;
 }
 
 .Timer {
@@ -96,26 +100,6 @@ body {
   font-size: 25px;
   font-weight: bold;
   font-family: "Gemunu Libre", sans-serif;
-}
-
-/*timer*/
-#container {
-  height: 130px;
-  width: 360px;
-  background-color: #ffffff;
-  box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
-  margin: -20px;
-  border-radius: 15px;
-  margin-left: 35px;
-  display: grid;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  font-family: "Gemunu Libre", sans-serif;
-  color: #752c2a;
 }
 
 .label {
@@ -232,11 +216,33 @@ body {
 .musicBody {
   border: 5px red solid;
   height: 100vh;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
   justify-content: center;
   margin: 0;
+}
+
+.Music-Player {
+  margin-bottom: 3%;
+  margin-left: 30%;
+}
+
+/*.Music-Player {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin: 20px;
+}*/
+
+.Music-Player h2 {
+  letter-spacing: 3px;
+  /*margin-top: 40px;
+  margin-left: 50px;*/
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Gemunu Libre", sans-serif;
 }
 
 .music-container {
