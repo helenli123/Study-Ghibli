@@ -317,7 +317,7 @@ body {
 .action-btn.action-btn-big {
   color: #898789;
   font-size: 35px;
-  border: 0;
+  /*border: 0;*/
 }
 
 .action-button:focus {
