@@ -21,11 +21,11 @@ body {
 {
   border-radius: 12px;
 	background: #761111;
-	box-shadow: inset 1px 1px 2px 0px #565656;
 	display: flex;
+  cursor: pointer;
 	align-items: right;
-  margin-left: 1440px;
-  margin-top: 30px;
+  margin-left: 1457px;
+  margin-top: -20px;
   border: none;
 }
 .button-icon {

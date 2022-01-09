@@ -17,12 +17,12 @@
   </head>
   <body>
     <!-- this is the start of content -->
-    <div class = "buttons">
-  <button class="button-cover" onclick="toggleFullScreen()">
+    <div class="buttons">
+      <button class="button-cover" onclick="toggleFullScreen()">
         <span class="button-icon"
           ><svg
-            width="21"
-            height="21"
+            width="31"
+            height="31"
             viewbox="2 2 16 16"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,12 +44,29 @@
             /></svg
         ></span>
       </button>
-    <button class = "home-page" >
-      <span class="css-button-icon"><svg width="21" height="21" viewbox="2 2 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 12.995V16.5a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5V13c0-.25-.25-.5-.5-.5H9c-.25 0-.5.25-.5.495z"/>
-<path fill-rule="evenodd" d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
-</svg></span>
+      <button class="home-page">
+        <span class="css-button-icon"
+          ><svg
+            width="31"
+            height="31"
+            viewbox="2 2 16 16"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.5 12.995V16.5a.5.5 0 01-.5.5H4a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5V13c0-.25-.25-.5-.5-.5H9c-.25 0-.5.25-.5.495z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M15 4.5V8l-2-2V4.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z"
+              clip-rule="evenodd"
+            /></svg
+        ></span>
       </button>
-     </div>
+    </div>
+    
+    
+    
     <div class="Timer">
       <h2>Timer</h2>
     </div>
@@ -72,7 +89,7 @@
       <input id="sec" type="number" max="60" min="0" value="0" class="time" />
       <button id="start" class="button">Start</button>
       <button id="reset" class="button">Reset</button>
-      <button id ="stop" class = "button">Stop</button>
+      <button id="stop" class="button">Stop</button>
     </div>
 
     <div class="Music-Player">
@@ -112,16 +129,14 @@
       </div>
     </div>
 
-    
     <!--todo list--->
-    
+
     <div class="all-tasks">
       <h2 class="task-list-title">My lists</h2>
-      <ul class="task-list" data-lists>
-      </ul>
+      <ul class="task-list" data-lists></ul>
 
       <form action="" data-new-list-form>
-        <input 
+        <input
           type="text"
           class="new list"
           data-new-list-input
@@ -132,56 +147,53 @@
       </form>
     </div>
 
-      
-    
     <div class="todo-list" data-list-display-container>
-      
-        <div class="todo-header">
-          <h2 class="list-title" data-list-title>My List</h2>
-          <p class="task-count" data-list-count>3 tasks remaining</p>
-        </div>
-
-        <div class="todo-body">
-
-          <div class="tasks" data-tasks></div>
-
-          <div class="new-task-creator">
-              <form action="" data-new-task-form>
-                  <input 
-                    type="text"
-                    data-new-task-input
-                    class="new task"
-                    placeholder="new task name"
-                    aria-label="new task name"
-                  />
-                  <button class="btn create" aria-label="create new task">+</button>
-                </form>
-          </div>
-
-          <div class="delete-stuff">
-            <button class="btn delete" data-clear-complete-tasks-button>Clear completed tasks</button>
-            <button class="btn delete" data-delete-list-button>Delete list</button>
-          </div>  
-          <!--let's us select in js-->
-        </div>
+      <div class="todo-header">
+        <h2 class="list-title" data-list-title>My List</h2>
+        <p class="task-count" data-list-count>3 tasks remaining</p>
       </div>
-      
 
-   
+      <div class="todo-body">
+        <div class="tasks" data-tasks></div>
+
+        <div class="new-task-creator">
+          <form action="" data-new-task-form>
+            <input
+              type="text"
+              data-new-task-input
+              class="new task"
+              placeholder="new task name"
+              aria-label="new task name"
+            />
+            <button class="btn create" aria-label="create new task">+</button>
+          </form>
+        </div>
+
+        <div class="delete-stuff">
+          <button class="btn delete" data-clear-complete-tasks-button>
+            Clear completed tasks
+          </button>
+          <button class="btn delete" data-delete-list-button>
+            Delete list
+          </button>
+        </div>
+        <!--let's us select in js-->
+      </div>
+    </div>
+
     <!--</div>-->
-    <template id = "task-template">
+    <template id="task-template">
       <div class="task">
-        <input 
-          type="checkbox"/>
+        <input type="checkbox" />
         <label>
           <span class="custom-checkbox"></span>
         </label>
       </div>
     </template>
-    
-    <script src = "todoList.js"></script>
+
+    <script src="todoList.js"></script>
     <script src="music_Totoro.js"></script>
     <script src="timer.js"></script>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
