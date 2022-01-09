@@ -232,7 +232,7 @@ body {
 }
 
 
-/*music*/
+/*********************************music*********************************/
 .music-container {
   background-color: white;
   width: 23%;
@@ -349,7 +349,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
-  height: 4px;
+  height: 100%;
   width: 100%;
 }
 
@@ -359,6 +359,10 @@ body {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+}
+
+.music {
+  border: 5px red solid;
 }
 
 /********************************************TODO LIST********************************************/
