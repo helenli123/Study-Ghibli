@@ -638,16 +638,13 @@ form {
 }
 
 .kzSec {
-  border: 5px red solid;
   display: flex;
   position: absolute;
   right: 0px;
   justify-content: space-between;
-  height: 100vh;
-  width: 50%;
+  height: 100%;
+  width: 45%;
   align-items:center;
+  padding-right: 3%;
 }
 
-.bigSec {
-  border: 5px cyan solid;
-}
