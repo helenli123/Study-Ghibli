@@ -10,14 +10,7 @@ function toggleFullScreen() {
 
 function playSound()
 {
-        var obj = document.createElement("audio");
-        obj.src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/click.mp3?v=1641711837468";
-        obj.volume=0.10;
-        obj.autoPlay=false;
-        obj.preLoad=true;       
- 
-        $("playSound").click(function() {
-            obj.play();
-        });
+  var sound = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/click.mp3?v=1641711837468"
+  sound.play();
  
     }
