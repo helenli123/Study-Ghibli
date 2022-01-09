@@ -25,7 +25,7 @@ body {
   cursor: pointer;
 	align-items: right;
   width: 3.3%;
-  margin-left: 1450px;
+  margin-left: 1460px;
   margin-top: -20px;
   border: none;
 }
@@ -38,7 +38,7 @@ body {
   cursor: pointer;
 	align-items: right;
   width: 3.3%;
-  margin-left: 1450px;
+  margin-left: 1460px;
   margin-top: 5px;
   border: none;
 }
@@ -50,7 +50,7 @@ body {
   cursor: pointer;
 	align-items: right;
   width: 3.3%;
-  margin-left: 1450px;
+  margin-left: 1460px;
   margin-top: 8px;
   border: none;
 }
@@ -92,7 +92,7 @@ body {
 
 .Timer h2 {
   letter-spacing: 3px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 50px;
   color: rgb(255, 255, 255);
   font-size: 25px;
@@ -100,6 +100,7 @@ body {
   font-family: "Gemunu Libre", sans-serif;
 }
 
+/*timer*/
 #container {
   height: 130px;
   width: 360px;
@@ -227,6 +228,8 @@ body {
   height: 30px;
   grid-area: 5 / 4 / 3 / 5;
 }
+
+
 /*music*/
 .music-container {
   background-color: white;
