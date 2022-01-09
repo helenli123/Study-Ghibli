@@ -17,17 +17,32 @@ body {
   overflow: hidden;
 }
 
-.button-cover
+.buttons1
 {
   border-radius: 12px;
 	background: #761111;
 	display: flex;
   cursor: pointer;
 	align-items: right;
-  margin-left: 1457px;
+  width: 3.3%;
+  margin-left: 1450px;
   margin-top: -20px;
   border: none;
 }
+
+.buttons2
+{
+  border-radius: 12px;
+	background: #761111;
+	display: flex;
+  cursor: pointer;
+	align-items: right;
+  width: 3.3%;
+  margin-left: 1450px;
+  margin-top: 5px;
+  border: none;
+}
+
 .button-icon {
 	padding: 9px 10px;
 	border-right: 1px solid rgba(255, 255, 255, 0.16);
