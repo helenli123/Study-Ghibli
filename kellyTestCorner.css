@@ -330,12 +330,13 @@ body {
   position: absolute;
   top: 0;
   left: 20px;
-  width: calc(100% - 40px);
-  padding: 10px 10px 10px 150px;
   opacity: 0;
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
   z-index: 0;
+  /*  width: calc(100% - 40px);
+  padding: 10px 10px 10px 150px;
+*/
 }
 
 .music-container.play .music-info {
@@ -345,17 +346,17 @@ body {
 
 .music-info h4 {
   margin: 0;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;
   font-size: 18px;
-  color: black;
+  color: black;*/
 }
 
 .progress-container {
-  background: white;
+  background-color: white;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
-  height: 100%;
+  height: 5px;
   width: 100%;
 }
 
