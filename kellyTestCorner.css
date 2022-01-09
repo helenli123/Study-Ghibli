@@ -3,6 +3,8 @@
 * {
   box-sizing: border-box;
   font-family: "Gemunu Libre", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -635,3 +637,11 @@ form {
   color: var(--clr-light);
 }
 
+.kzSec {
+  border: 5px red solid;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  width: 40%;
+  justify-content: space-between;
+}
