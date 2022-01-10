@@ -53,17 +53,14 @@ function update()
     }
   
   if(!played && !directory && restart){
-     if(tillPlayed){
         song.currentTime = tillPlayed;
         song.play();
         played = true;
        directory = true;
-        }
-
     }
 
     else {
     setCookie('timePlayed', song.currentTime);
     }
 }
-setInterval(update,1000); 
+setInterval(update,0); 
