@@ -249,8 +249,7 @@ body {
 }
 
 .img-container {
-  position: relative;
-  left:0;
+  border: 2px solid black;
   width: 110px;
 }
 
@@ -271,7 +270,7 @@ body {
   object-fit: cover;
   height: 110px;
   width: inherit;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   animation: rotate 3s linear infinite;
