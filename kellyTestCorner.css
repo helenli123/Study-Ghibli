@@ -68,8 +68,8 @@ body {
 /*****************************************timer*****************************************/
 .left {
   height: 100vh;
-  width: 50%;
-  /*border: 5px white solid;*/
+  width: 45%;
+  border: 5px white solid;
 }
 
 .timerMusic {
@@ -79,8 +79,8 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   
-  width: 50%;
-  /*border: 5px pink solid;*/
+  width: 45%;
+  border: 5px pink solid;
   height: 50vh;
   /*margin-top: 10%;*/
   display: flex;
@@ -394,15 +394,31 @@ body {
 }
 
 .testBody {
+  height: 100%;
+  width: 50%;
+  border: 5px cyan solid;
   margin: 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  /*background-color: var(--clr-primary);*/
   color: var(--clr-light);
   display: grid;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
 }
+
+.kzSec {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  justify-content: space-between;
+  height: 50%;
+  width: 45%;
+  align-items:center;
+  padding-right: 4%;
+  border: 5px orange solid;
+}
+
+
 
 .title {
   grid-area: header;
@@ -652,16 +668,5 @@ form {
   left: 0;
   bottom: -35px;
   color: var(--clr-light);
-}
-
-.kzSec {
-  display: flex;
-  position: absolute;
-  right: 0px;
-  justify-content: space-between;
-  height: 100%;
-  width: 45%;
-  align-items:center;
-  padding-right: 4%;
 }
 
