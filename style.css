@@ -418,7 +418,7 @@ video {
 
 
 /*********************************music*********************************/
-.Music {
+/* .Music {
   padding-left: 25%;
   width: 100%;
   height: 20%;
@@ -548,7 +548,8 @@ video {
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
-}
+} */
+
 
 /********************************************TODO LIST********************************************/
  :root {
@@ -851,5 +852,5 @@ form {
 /**********************PAGE SPECIFIC STUFF*********************************************/
 
 .spirited-away-body{
-  background-image: url(          src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729")
+  background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753");
 }
