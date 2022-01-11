@@ -16,16 +16,19 @@ body {
   display: flex;
 }
 
+.buttons {
+  display: flex;
+  height: 10%;
+  width: 30%;
+  border: 5px white solid;
+}
+
 .buttons1
 {
   border-radius: 12px;
 	background: #761111;
-	display: flex;
   cursor: pointer;
-	align-items: right;
   width: 3.3%;
-  margin-left: 1460px;
-  margin-top: -20px;
   border: none;
 }
 
@@ -33,28 +36,19 @@ body {
 {
   border-radius: 12px;
 	background: #761111;
-	display: flex;
   cursor: pointer;
-	align-items: right;
   width: 3.3%;
-  margin-left: 1460px;
-  margin-top: 5px;
   border: none;
 }
 .buttons3
 {
   border-radius: 12px;
 	background: #761111;
-	display: flex;
   cursor: pointer;
-	align-items: right;
   width: 3.3%;
-  margin-left: 1460px;
-  margin-top: 8px;
   border: none;
 }
 .button-icon {
-	padding: 9px 10px;
 	border-right: 1px solid rgba(255, 255, 255, 0.16);
 	color:rgb(255,255,255);
 }
@@ -62,7 +56,6 @@ body {
 	vertical-align: middle;
 	position: relative;
 	font-size: 31px;
-	top: -1px;
 }
 
 /*****************************************timer*****************************************/
@@ -75,12 +68,12 @@ body {
 .timerMusic {
   margin: 0;
   position: absolute;
-  /*top: 50%;
+  top: 45%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   
   width: 45%;
-  border: 5px pink solid;
+  /*border: 5px pink solid;*/
   height: 50vh;
   /*margin-top: 10%;*/
   display: flex;
@@ -407,15 +400,24 @@ body {
 }
 
 .kzSec {
+  margin: 0;
+  position: absolute;
+  top: 48%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   display: flex;
   position: absolute;
   right: 0px;
   justify-content: space-between;
   height: 50%;
-  width: 45%;
+  width: 55%;
   align-items:center;
-  /*padding-right: 4%;*/
-  border: 5px orange solid;
+  padding: 0 5%;
+  /*border: 5px orange solid;*/
 }
 
 
