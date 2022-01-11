@@ -18,9 +18,11 @@ body {
 
 .buttons {
   display: flex;
-  height: 10%;
+  height: 30vh;
   width: 30%;
   border: 5px white solid;
+  justify-content: space-between;
+  float: right;
 }
 
 .buttons1
@@ -28,7 +30,8 @@ body {
   border-radius: 12px;
 	background: #761111;
   cursor: pointer;
-  width: 3.3%;
+  width: 5%;
+  height: 5%;
   border: none;
 }
 
@@ -37,25 +40,30 @@ body {
   border-radius: 12px;
 	background: #761111;
   cursor: pointer;
-  width: 3.3%;
+  width: 5%;
+  height: 5%;
   border: none;
 }
+
 .buttons3
 {
   border-radius: 12px;
 	background: #761111;
   cursor: pointer;
-  width: 3.3%;
+  width: 5%;
+  height: 5%;
   border: none;
 }
+
 .button-icon {
-	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	/*border-right: 1px solid rgba(255, 255, 255, 0.16);*/
 	color:rgb(255,255,255);
 }
+
 .button-icon svg {
-	vertical-align: middle;
+	/*vertical-align: middle;
 	position: relative;
-	font-size: 31px;
+	font-size: 31px;*/
 }
 
 /*****************************************timer*****************************************/
@@ -172,7 +180,7 @@ body {
   grid-area: 2 / 5 / 2 / 8;
 }
 
-/************************************buttons**********************/
+/************************************timer buttons**************************************/
 
 .button {
   width: 90px;
