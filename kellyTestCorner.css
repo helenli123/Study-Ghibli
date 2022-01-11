@@ -1,12 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap");
-
-* {
-  box-sizing: border-box;
-  font-family: "Gemunu Libre", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753");
   color: rgb(255, 255, 255);
@@ -62,14 +53,7 @@ body {
 }
 
 .button-icon {
-	/*border-right: 1px solid rgba(255, 255, 255, 0.16);*/
 	color:rgb(255,255,255);
-}
-
-.button-icon svg {
-	/*vertical-align: middle;
-	position: relative;
-	font-size: 31px;*/
 }
 
 /*****************************************timer*****************************************/
@@ -87,9 +71,7 @@ body {
   transform: translateY(-50%);
   
   width: 45%;
-  /*border: 5px pink solid;*/
   height: 50vh;
-  /*margin-top: 10%;*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -114,7 +96,6 @@ body {
 
 .Timer {
   padding-left: 25%;
-  /*border: 5px cyan solid;*/
 }
 
 .Timer h2 {
@@ -170,6 +151,7 @@ body {
   font-size: 50px;
   margin: 0;
 }
+
 #p1 {
   grid-area: 2 / 1 / 2 / 5;
 }
@@ -187,7 +169,6 @@ body {
 }
 
 /************************************timer buttons**************************************/
-
 .button {
   width: 90px;
   height: 30px;
@@ -242,7 +223,6 @@ body {
   padding-left: 25%;
   width: 100%;
   height: 20%;
-  /*border: 5px red solid;*/
 }
 
 .Music h2 {
@@ -255,19 +235,12 @@ body {
 }
 
 .music-container {
-  /*border: 5px orange solid;*/
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   display: flex;
   padding: 20px 30px;
   width: 65%;
-  /*width: 23%;
-  left: 35px;
-  bottom: 20px;
-  position: relative;
-  margin: 50px 0;
-  z-index: 10;*/
 }
 
 .img-container {
@@ -334,7 +307,6 @@ body {
 .action-btn.action-btn-big {
   color: #898789;
   font-size: 35px;
-  /*border: 0;*/
 }
 
 .action-button:focus {
@@ -351,9 +323,6 @@ body {
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
   z-index: 0;
-  /*  width: calc(100% - 40px);
-  padding: 10px 10px 10px 150px;
-*/
 }
 
 .music-container.play .music-info {
@@ -363,9 +332,6 @@ body {
 
 .music-info h4 {
   margin: 0;
-  /*letter-spacing: 1px;
-  font-size: 18px;
-  color: black;*/
 }
 
 .progress-container {
@@ -400,10 +366,9 @@ body {
   box-sizing: border-box;
 }
 
-.testBody {
+/*.testBody {
   height: 100%;
   width: 50%;
-  border: 5px cyan solid;
   margin: 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
@@ -411,7 +376,7 @@ body {
   color: var(--clr-light);
   display: grid;
   grid: "header header header header" auto "...... lists  active ......" auto/1fr minmax(100px, 300px) minmax(250px, 500px) 1fr;
-}
+}*/
 
 .kzSec {
   margin: 0;
@@ -431,7 +396,6 @@ body {
   width: 55%;
   align-items:center;
   padding: 0 5%;
-  /*border: 5px orange solid;*/
 }
 
 .title {
