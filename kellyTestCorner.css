@@ -8,11 +8,12 @@ body {
 }
 
 .topRight {
+  position: absolute;
+  top: 0;
   border: 5px blue solid;
   width: 100%;
   height: 10vh;
-  margin: 0;
-}
+} 
 
 .buttons {
   display: flex;
@@ -67,6 +68,7 @@ body {
 .timerMusic {
   margin: 0;
   position: absolute;
+  left: 0;
   top: 45%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
