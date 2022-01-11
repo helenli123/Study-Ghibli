@@ -1,7 +1,8 @@
 /* a minimalist set of CSS resets */
 /*Helen importing fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Unica+One&display=swap");
-/*.*/
+
+/***************************************DEFAULTS***************************************/
 
 /* default to border-box */
 * {
@@ -13,10 +14,6 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
-
-/* *, *:before, *:after {
-  box-sizing: inherit;
-} */
 
 /* adjust typography defaults */
 body {
@@ -34,15 +31,12 @@ video {
   height: auto;
   max-width: 100%;
 }
-/*Madison*/
 
-/*Helen*/
-
-.audio
-{
+.audio {
   margin-top: 50px;
 }
 
+/***************************************INDEX***************************************/
 .intropage {
   background: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/introphoto?v=1641444178885)
   no-repeat center center fixed;
@@ -82,6 +76,7 @@ video {
   margin-top: -140px;
   border: none;
 }
+
 .button-cover2:hover {
   box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
   -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
@@ -89,11 +84,13 @@ video {
   -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
   border-radius:12px;
 }
+
 .button-icon {
 	padding: 9px 10px;
 	border-right: 1px solid rgba(255, 255, 255, 0.16);
 	color:rgb(129,12,148);
 }
+
 .button-icon svg {
 	vertical-align: middle;
 	position: relative;
@@ -121,9 +118,9 @@ video {
 #study{
   font-size: 60px;
 }
+
 #ghibli{
   font-size: 60px;
-  
 }
 
 #homeghibliicon {
@@ -170,9 +167,7 @@ video {
   align-items: center;
 }
 
-/*Kelly*/
-
-
+/***************************************DIRECTORY***************************************/
 #dirHead {
   font-family: "Gemunu Libre", sans-serif;
   font-size: 4em;
