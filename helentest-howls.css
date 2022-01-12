@@ -77,29 +77,25 @@ body {
 	color:rgb(255,255,255);
 }
 
-/*****************************************timer*****************************************/
-.left {
-  height: 100vh;
-  width: 45%;
-  border: 5px white solid;
-}
+/*******************************TIMER****************************************************/
 
 .timerMusic {
+  border: 4px solid white;
   margin: 0;
   position: absolute;
-  left: 0;
-  top: 45%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  
-  width: 45%;
-  height: 50vh;
+
+  width: 45vw;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-#container {
+/* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  
+
+.timer-container {
   width: 65%;
   height: 130px;
   background-color: #ffffff;
