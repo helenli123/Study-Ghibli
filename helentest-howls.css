@@ -21,6 +21,11 @@ body {
   background-size: cover;
 }
 
+.howls-body{
+  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl%20sewing%20gif.gif?v=1641958587892);
+  background-size: cover;
+}
+
 /**********************BUTTONS*********************************************/
 .topRight {
   position: absolute;
@@ -186,17 +191,27 @@ body {
 }
 
 /************************************timer buttons**************************************/
-.button {
+.timer-buttons button{
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  background-color: #752c2a;
   width: 80px;
   height: 30px;
+  border: none;
+
+
+} 
+.timer-buttons{
   border: 2px solid black;
 
-  width: 100%;
-  height: 30px;
-} 
+  display: flex;
+  position: relative;
+    
+}
 
-
-#start {
+/* #start {
   font-family: "Gemunu Libre", sans-serif;
   font-size: 20px;
   color: white;
@@ -236,7 +251,7 @@ body {
   grid-area: 5 / 4 / 3 / 5;
 } 
 
-
+ */
 /*********************************music*********************************/
 .Music {
   padding-left: 25%;
