@@ -77,28 +77,6 @@ body {
   justify-content: space-evenly;
 }
 
-.Timer {
-  padding-left: 25%;
-}
-
-.Timer h2 {
-  padding-bottom: 2%;
-  padding-left: 25%;
-  letter-spacing: 3px;
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Gemunu Libre", sans-serif;
-}
-
-.label {
-  margin: 0;
-  justify-self: left;
-  align-self: left;
-  color: black;
-  font-size: 20px;
-}
-
 .time {
   justify-self: center;
   align-self: center;
@@ -111,9 +89,23 @@ body {
   height: 50px;
 }
 
-#hour {
-  grid-area: 2 / 1 / 2 / 3;
+.timer-buttons{
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
+
+.timer-buttons button{
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  background-color: #752c2a;
+  width: 70px;
+  height: 30px;
+  border: none;
+} 
 
 .semicolon {
   justify-self: center;
@@ -123,42 +115,8 @@ body {
   margin: 0;
 }
 
-#p1 {
-  grid-area: 2 / 1 / 2 / 5;
-}
-
-#minute {
-  grid-area: 2 / 3 / 2 / 5;
-}
-
-#p2 {
-  grid-area: 2 / 4 / 2 / 7;
-}
-
-#sec {
-  grid-area: 2 / 5 / 2 / 8;
-}
-
 /************************************timer buttons**************************************/
-.timer-buttons button{
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 20px;
-  color: white;
-  border-radius: 12px;
-  background-color: #752c2a;
-  width: 80px;
-  height: 30px;
-  border: none;
 
-
-} 
-.timer-buttons{
-  border: 2px solid black;
-
-  display: flex;
-  position: relative;
-    
-}
 
 /* #start {
   font-family: "Gemunu Libre", sans-serif;
