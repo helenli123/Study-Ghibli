@@ -26,57 +26,6 @@ body {
   background-size: cover;
 }
 
-/**********************BUTTONS*********************************************/
-.topRight {
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 10vh;
-} 
-
-.buttons {
-  display: flex;
-  height: 50%;
-  width: 10%;
-  justify-content: space-around;
-  float: right;
-}
-
-.buttons1
-{
-  border-radius: 12px;
-	background: #761111;
-  cursor: pointer;
-  width: 13%;
-  height: 100%;
-  border: none;
-}
-
-.buttons2
-{
-  border-radius: 12px;
-	background: #761111;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.buttons3
-{
-  border-radius: 12px;
-	background: #761111;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.button-icon {
-	color:rgb(255,255,255);
-}
-
 /*******************************TIMER****************************************************/
 
 .timerMusic {
