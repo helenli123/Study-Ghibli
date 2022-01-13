@@ -26,7 +26,6 @@ body {
   background-size: cover;
 }
 
-/*******************************TIMER****************************************************/
 
 .timerMusic {
   border: 4px solid white;
@@ -42,23 +41,32 @@ body {
 
 /* -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
-  
+
+/*******************************TIMER****************************************************/
+
+
 
 .timer-container {
-  width: 65%;
-  height: 130px;
+  width: 20vw;
+  height: 20vh;
   background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   border-radius: 15px;
-  display: grid;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: left;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(4, 1fr);
   font-family: "Gemunu Libre", sans-serif;
   color: #752c2a;
+}
+
+.timer-labels{
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .Timer {
@@ -81,18 +89,6 @@ body {
   align-self: left;
   color: black;
   font-size: 20px;
-}
-
-#hour-label {
-  grid-area: 1 / 2 / 1 / 4;
-}
-
-#min-label {
-  grid-area: 1 / 4 / 1 / 5;
-}
-
-#sec-label {
-  grid-area: 1 / 6 / 1 / 7;
 }
 
 .time {
