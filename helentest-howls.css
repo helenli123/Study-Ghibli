@@ -132,13 +132,25 @@ body {
   
 }
 
+.music-info {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  top: 0;
+  left: 60%;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
 .progress-container {
-  background-color: white;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
   height: 5px;
   width: 100%;
+  
 }
 
 .progress {
@@ -151,9 +163,11 @@ body {
 
 
 .img-container {
-  position: relative;
+  border: 2px solid black;
   width: 110px;
-}
+  position: relative;
+  bottom: 20px;
+} 
 
 .img-container::after {
   content: "";
@@ -169,12 +183,8 @@ body {
   border-radius: 50%;
   object-fit: cover;
   height: 110px;
-  width: inherit;
-  position: absolute;
-  bottom: 0;
-  right: 10%;
+  width: 110px;
   animation: rotate 3s linear infinite;
-
   animation-play-state: paused;
 }
 
@@ -218,17 +228,7 @@ body {
   outline: 0;
 }
 
-.music-info {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px 15px 0 0;
-  position: relative;
-  top: 0;
-  left: 60%;
-  opacity: 0;
-  transform: translateY(0%);
-  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
-  z-index: 0;
-}
+
 
 .music-container.play .music-info {
   opacity: 1;
