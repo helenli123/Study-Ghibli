@@ -48,7 +48,7 @@ video {
   overflow: hidden;
 }
 
-.button-cover1{
+/*.button-cover1{
 	border-radius: 12px;
 	background: #E1C7E6;
 	box-shadow: inset 1px 1px 2px 0px #6C6D6E;
@@ -98,7 +98,7 @@ video {
 	position: relative;
 	font-size: 31px;
 	top: -1px;
-}
+}*/
 
 .welcome {
   text-align: center;
