@@ -13,7 +13,7 @@ body {
 }
 
 .totoro-body {
-  background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Totoro%20rain.gif?v=1641616672875);
+  background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Totoro%20rain.gif?v=1641616672875");
   background-size: cover;
 }
 
@@ -390,7 +390,7 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   
-  font-family: "Work Sans", sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   display: flex;
@@ -530,6 +530,7 @@ form {
   grid-area: active;
   background: var(--clr-light);
   color: var(--clr-dark);
+  border-radius: 10%;
 }
 
 .todo-header {
@@ -538,6 +539,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 20%;
 }
 
 .list-title {
