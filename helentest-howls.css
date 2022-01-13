@@ -52,17 +52,21 @@ body {
   background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   border-radius: 15px;
+  
+  font-family: "Gemunu Libre", sans-serif;
+  color: #752c2a;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  font-family: "Gemunu Libre", sans-serif;
-  color: #752c2a;
+  justify-content: center;
+  
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-self: stretch;
 }
-
+ 
 .timer-labels{
-  border: 2px solid black;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -70,14 +74,15 @@ body {
 }
 
 .time-display{
-  border: 2px solid black;
-  width: 100%;
   display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+  top: 0%;
 }
 
 .time {
+  display: flex;
+  
   justify-self: center;
   align-self: center;
 
@@ -90,10 +95,9 @@ body {
 }
 
 .timer-buttons{
-  border: 2px solid black;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .timer-buttons button{
@@ -108,6 +112,7 @@ body {
 } 
 
 .semicolon {
+  display: flex;
   justify-self: center;
   align-self: center;
 
