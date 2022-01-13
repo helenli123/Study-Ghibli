@@ -69,6 +69,14 @@ body {
   justify-content: space-evenly;
 }
 
+.time-display{
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
 .Timer {
   padding-left: 25%;
 }
