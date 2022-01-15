@@ -35,7 +35,7 @@ body {
   display: flex;
   height: 50%;
   width: 10%;
-  justify-content: space-around;
+  justify-content: space-between;
   float: right;
 }
 
@@ -43,8 +43,9 @@ body {
 {
   border-radius: 12px;
 	background: #761111;
+  display: flex;
   cursor: pointer;
-  width: 13%;
+  width: 40%;
   height: 100%;
   border: none;
 }
@@ -53,6 +54,7 @@ body {
 {
   border-radius: 12px;
 	background: #761111;
+  display:flex;
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -63,6 +65,7 @@ body {
 {
   border-radius: 12px;
 	background: #761111;
+  display:flex;
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -70,9 +73,16 @@ body {
 }
 
 .button-icon {
+  padding:9px 10px;
 	color:rgb(255,255,255);
 }
 
+.button-icon svg {
+	vertical-align: middle;
+	position: relative;
+	font-size: 31px;
+	top: -1px;
+}
 /*****************************************TIMER*****************************************/
 /*.left {
   height: 100vh;
