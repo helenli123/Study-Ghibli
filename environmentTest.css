@@ -104,27 +104,27 @@ body {
 }
 
 #container {
-  width: 70%;
+  width: 60%;
   height: 130px;
   background-color: #ffffff;
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   border-radius: 15px;
   display: grid;
-  flex-direction: column;
-  align-items: left;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: left;
-   grid-template: "a a a a a a a " 40px
-            "a b c b c b a " 40px
+   grid-template: "a a a a a a a" 40px
+            "a b c b c b a" 40px
             "a b c b c b a" 40px 
-            "d d d d d d d" 40px
+            "a d a d a d a" 40px
+            "a a a a a a a" 40px
      / 1fr 1fr 1fr;
   font-family: "Gemunu Libre", sans-serif;
   color: #752c2a;
 }
 
 .Timer {
-  padding-left: 25%;
+  padding-left: 15%;
 }
 
 .Timer h2 {
@@ -132,7 +132,7 @@ body {
   padding-left: 10%;
   letter-spacing: 2px;
   color: white;
-  text-shadow: 2px 2px  #752c2a;
+  text-shadow: 3px 3px  #752c2a;
   font-size: 25px;
   font-family: "Gemunu Libre", sans-serif;
 }
@@ -165,7 +165,7 @@ body {
   border: none;
   border-radius: 12px;
   background-color: rgb(220, 220, 220);
-  font-size: 30px;
+  font-size: 25px;
   width: 70px;
   height: 50px;
 }
@@ -201,10 +201,7 @@ body {
 .button {
   width: 80px;
   height: 30px;
-  border: 2px solid black;
-
-  width: 100%;
-  height: 30px;
+  margin-bottom: 5px;
 } 
 
 #start {
@@ -215,22 +212,9 @@ body {
   background-color: #752c2a;
   border: none;
   align-self: left;
-  grid-area: 5 / 2 / 3 / 2;
+  grid-area: 4 / 2 / 5 / 3;
   width: 80px;
   height: 30px;
-}
-
-#reset {
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 20px;
-  color: white;
-  border-radius: 12px;
-  background-color: #752c2a;
-  border: none;
-  align-self: right;
-  width: 80px;
-  height: 30px;
-  grid-area: 5 / 6 / 3 / 8;
 }
 
 #stop
@@ -244,8 +228,21 @@ body {
   align-self: right;
   width: 80px;
   height: 30px;
-  grid-area: 5 / 4 / 3 / 5;
+  grid-area: 4 / 4 / 5 / 5;
 } 
+
+#reset {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 12px;
+  background-color: #752c2a;
+  border: none;
+  align-self: right;
+  width: 80px;
+  height: 30px;
+  grid-area: 4 / 6 / 5 / 7;
+}
 
 /*********************************MUSIC*********************************/
 .Music {
