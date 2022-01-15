@@ -246,17 +246,18 @@ body {
 
 /*********************************MUSIC*********************************/
 .Music {
-  padding-left: 25%;
+  padding-left: 15%;
   width: 100%;
   height: 20%;
 }
 
 .Music h2 {
-  padding-bottom: 3%;
-  padding-left: 25%;
-  letter-spacing: 3px;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  letter-spacing: 2px;
   color: rgb(255, 255, 255);
   font-size: 25px;
+  text-shadow: 3px 3px  #752c2a;
   font-family: "Gemunu Libre", sans-serif;
 }
 
@@ -266,7 +267,8 @@ body {
   box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   display: flex;
   padding: 20px 30px;
-  width: 65%;
+  height: 130%;
+  width: 70%;
   position: relative;
 }
 
@@ -280,6 +282,7 @@ body {
   background-color: white;
   border-radius: 50%;
   position: absolute;
+  left: 50%;
   width: 20px;
   height: 20px;
   transform: translate(-50%, 50%);
@@ -291,10 +294,9 @@ body {
   height: 110px;
   width: inherit;
   position: absolute;
-  bottom: 0;
+  bottom: -10%;
   right: 10%;
   animation: rotate 3s linear infinite;
-
   animation-play-state: paused;
 }
 
@@ -341,9 +343,10 @@ body {
 .music-info {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px 15px 0 0;
-  position: relative;
+  position: absolute;
   top: 0;
-  left: 60%;
+  left: 30%;
+  width: calc(100% - 140px);
   opacity: 0;
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
@@ -357,15 +360,16 @@ body {
 
 .music-info h4 {
   margin: 0;
+  
 }
 
 .progress-container {
   background-color: white;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 10px 10px;
   height: 5px;
-  width: 100%;
+  width: 90%;
 }
 
 .progress {
