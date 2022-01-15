@@ -252,7 +252,7 @@ body {
 }
 
 .Music h2 {
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   padding-left: 10%;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
@@ -283,6 +283,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 50%;
+  bottom: 80%;
   width: 20px;
   height: 20px;
   transform: translate(-50%, 50%);
@@ -294,8 +295,8 @@ body {
   height: 110px;
   width: inherit;
   position: absolute;
-  bottom: -10%;
-  right: 10%;
+  bottom: -20%;
+  right: 2%;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
 }
@@ -347,6 +348,7 @@ body {
   top: 0;
   left: 30%;
   width: calc(100% - 140px);
+  padding: 5px 5px 5px 5px;
   opacity: 0;
   transform: translateY(0%);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
@@ -359,8 +361,11 @@ body {
 }
 
 .music-info h4 {
-  margin: 0;
-  
+  margin-left:10;
+  margin-bottom:-5;
+  margin-top: 5;
+  color: black;
+  font-size: 14px;
 }
 
 .progress-container {
@@ -403,11 +408,10 @@ body {
   transform: translateY(-50%);
   
   font-family: "Gemunu Libre", sans-serif;
-  font-weight: 300;
   font-size: 1.5rem;
   display: flex;
   position: absolute;
-  right: 0px;
+  right: -20px;
   justify-content: space-between;
   height: 50%;
   width: 55%;
