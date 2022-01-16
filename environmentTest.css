@@ -21,6 +21,10 @@ body {
   background-image: url("https://media.npr.org/assets/artslife/movies/2009/08/ponyo/ponyobeach_wide-5e1abc1d910767d27cddcc5e7a1554a3040ed6c2.jpg");
   background-size: cover;
 }
+.howls-body{
+  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl%20sewing%20gif.gif?v=1641958587892);
+  background-size: cover;
+}
 
 /*******************************************BUTTONS*******************************************/
 .topRight {
@@ -554,7 +558,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 20%;
+  border-radius: 20px 20px 0 0;
 }
 
 .list-title {
