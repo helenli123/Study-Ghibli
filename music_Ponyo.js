@@ -12,8 +12,8 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Wind Forest', 'Kaze No Tooramichi', 'Wind Forest'];
-const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Day%20Of%20The%20River%20-%20Spirited%20Away.mp3?v=1641587793004", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Always%20With%20Me.mp3?v=1641539012173"];
+const songs = ['The Sunflower House in the Storm', 'Empty Bucket', "Ponyo'"];
+const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-the-sunflower-house-in-the-storm.mp3?v=1642629716118", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-empty-bucket.mp3?v=1642629720019", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-ponyo-39-s-lullaby.mp3?v=1642629724113"];
 // Keep track of song
 let songIndex = 2;
 
@@ -32,7 +32,6 @@ function playSong() {
   musicContainer.classList.add('play');
   playBtn.querySelector('i.fas').classList.remove('fa-play');
   playBtn.querySelector('i.fas').classList.add('fa-pause');
-
   audio.play();
 }
 
@@ -176,4 +175,5 @@ audio.addEventListener('ended', nextSong);
 
 // Time of song
 audio.addEventListener('timeupdate',DurTime);
+
 
