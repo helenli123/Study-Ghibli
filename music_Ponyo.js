@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['The Sunflower House in the Storm', 'Empty Bucket', "Ponyo'"];
+const songs = ['The Sunflower House in the Storm', 'Empty Bucket', "Ponyo's Lullaby"];
 const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-the-sunflower-house-in-the-storm.mp3?v=1642629716118", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-empty-bucket.mp3?v=1642629720019", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-ponyo-39-s-lullaby.mp3?v=1642629724113"];
 // Keep track of song
 let songIndex = 2;

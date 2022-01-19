@@ -334,7 +334,9 @@ body {
 }
 
 .action-btn.action-btn-big {
-  color: #898789;
+  border:#795548;
+  border-radius:30%;
+  color: #795548;
   font-size: 35px;
 }
 

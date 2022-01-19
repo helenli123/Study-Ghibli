@@ -12,8 +12,8 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Wind Forest', 'Kaze No Tooramichi', 'Wind Forest'];
-const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Day%20Of%20The%20River%20-%20Spirited%20Away.mp3?v=1641587793004", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Always%20With%20Me.mp3?v=1641539012173"];
+const songs = ['Wind Forest', 'Kaze No Tooramichi', 'Gogatsu-no-mura'];
+const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/My%20Neighbor%20Totoro%20-%20Wind%20Forest.mp3?v=1642629446720", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/gogatsu-no-mura-scloudtomp3downloader.com.mp3?v=1642630347016"];
 // Keep track of song
 let songIndex = 2;
 

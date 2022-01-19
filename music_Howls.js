@@ -12,8 +12,8 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['One Summers Day', 'Day of The River', 'Always With Me'];
-const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Day%20Of%20The%20River%20-%20Spirited%20Away.mp3?v=1641587793004", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Always%20With%20Me.mp3?v=1641539012173"];
+const songs = ['In The Rain', 'Flower Garden', 'Merry Go Round of Life'];
+const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl-39-s-moving-castle-ost-in-the-rain.mp3?v=1642630458751", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl-39-s-moving-castle-flower-garden.mp3?v=1642630459735", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl-39-s-moving-castle-ost-merry-go-round-of-life.mp3?v=1642630461823"];
 // Keep track of song
 let songIndex = 2;
 
@@ -174,4 +174,5 @@ audio.addEventListener('ended', nextSong);
 
 // Time of song
 audio.addEventListener('timeupdate',DurTime);
+
 
