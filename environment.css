@@ -15,6 +15,7 @@ body {
 .totoro-body {
   background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Totoro%20rain.gif?v=1641616672875");
   background-size: cover;
+  color: 
 }
 
 .ponyo-body {
@@ -279,25 +280,28 @@ body {
 }
 
 .img-container::after {
-  content: "";
+  border: 3px solid black;
   background-color: white;
+  content: "";
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  bottom: 80%;
-  width: 20px;
-  height: 20px;
-  transform: translate(-50%, 50%);
-}
+  
 
+  
+}
+/*   
+width: 20px;
+  height: 20px;
+transform: translate(-50%, 50%);
+ */
 .img-container img {
   border-radius: 50%;
   object-fit: cover;
   height: 110px;
   width: inherit;
-  position: absolute;
-  bottom: -20%;
-  right: 2%;
+  position: relative;
+  bottom: 30px;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
 }
