@@ -48,7 +48,7 @@ video {
   overflow: hidden;
 }
 
-/*.button-cover1{
+.button-cover1{
 	border-radius: 12px;
 	background: #E1C7E6;
 	box-shadow: inset 1px 1px 2px 0px #6C6D6E;
@@ -98,26 +98,20 @@ video {
 	position: relative;
 	font-size: 31px;
 	top: -1px;
-}*/
-
-.welcome {
-  text-align: center;
-  margin: 10px;
-  color: rgb(243, 171, 255);
-  font-size: 50px;
-  margin-left:-8px;
 }
 
 .studyghibli {
   display: flex;
   justify-content: center;
-  color: rgb(224, 50, 253);
+  color: rgb(112,41,136);
   font-family: "Unica One", cursive;
   font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 
 #study{
-  font-size: 60px;
+  font-sirgb(171,90,199)
 }
 
 #ghibli{
@@ -165,6 +159,8 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  color: rgb(243, 171, 255);
 }
 
 /***************************************DIRECTORY***************************************/
