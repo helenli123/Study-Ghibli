@@ -12,8 +12,8 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['One Summers Day', 'Day of The River', 'Always With Me'];
-const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Day%20Of%20The%20River%20-%20Spirited%20Away.mp3?v=1641587793004", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Always%20With%20Me.mp3?v=1641539012173"];
+const songs = ['The Sunflower House in the Storm', 'Empty Bucket', "Ponyo's Lullaby"];
+const music = ["https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-the-sunflower-house-in-the-storm.mp3?v=1642629716118", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-empty-bucket.mp3?v=1642629720019", "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo-ost-ponyo-39-s-lullaby.mp3?v=1642629724113"];
 // Keep track of song
 let songIndex = 2;
 
@@ -24,7 +24,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = music[songIndex];
-  cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729";
+  cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyoAlbumCover.jpg?v=1642630983622";
 }
 
 // Play song
@@ -40,6 +40,7 @@ function pauseSong() {
   musicContainer.classList.remove('play');
   playBtn.querySelector('i.fas').classList.add('fa-play');
   playBtn.querySelector('i.fas').classList.remove('fa-pause');
+
   audio.pause();
 }
 
@@ -174,4 +175,5 @@ audio.addEventListener('ended', nextSong);
 
 // Time of song
 audio.addEventListener('timeupdate',DurTime);
+
 
