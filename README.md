@@ -1,22 +1,21 @@
-# Hello Website (blank)
+# Inspiration
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+During online school last year, it was especially hard for many students to stay productive and motivated as well as 
+connect with peers. To this end, we developed an online platform, Study Ghibli, that would engage users in productive 
+studying by facilitating a calm environment with relaxing music.
 
-## What's in this project?
+## What it does
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+Study Ghibli is a productivity platform which allows users to select Ghibli themed virtual environments to study with. 
+A defining feature of our platform is that there is an option for users to study in the company of people online, 
+in order to keep each other accountable for studying productively. In the virtual environment, Study Ghibli provides users 
+with a countdown timer to track the time spent studying and also provides a space for users to add their 
+goals and assignments they wish to achieve during the study period.
 
-← `index.html`: This is the main HTML page for your site.
 
-← `style.css`: CSS files add styling rules to your content.
+## Features
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+One notable achievement that we are proud of is our meticulous attention to detail. We tried our best to create an 
+easily accessible and functional user interface while also decorating our prototype with vibrant themes. 
+Since our coding skills were still intermediate, we focused our effort on graphic designing such as following a 
+retro concept and creating smooth transitions.
