@@ -48,7 +48,7 @@ video {
   overflow: hidden;
 }
 
-/*.button-cover1{
+.button-cover1{
 	border-radius: 12px;
 	background: #E1C7E6;
 	box-shadow: inset 1px 1px 2px 0px #6C6D6E;
@@ -67,25 +67,6 @@ video {
   border-radius:12px;
 }
 
-.button-cover2{
-	border-radius: 12px;
-	background: #E1C7E6;
-	box-shadow: inset 1px 1px 2px 0px #737375;
-	cursor: pointer;
-	display: flex;
-	align-items: right;
-  margin-left: 1440px;
-  margin-top: -140px;
-  border: none;
-}
-
-.button-cover2:hover {
-  box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  border-radius:12px;
-}
 
 .button-icon {
 	padding: 9px 10px;
@@ -98,30 +79,27 @@ video {
 	position: relative;
 	font-size: 31px;
 	top: -1px;
-}*/
-
-.welcome {
-  text-align: center;
-  margin: 10px;
-  color: rgb(243, 171, 255);
-  font-size: 50px;
-  margin-left:-8px;
 }
 
 .studyghibli {
   display: flex;
   justify-content: center;
-  color: rgb(224, 50, 253);
+  color: rgb(112,41,136);
   font-family: "Unica One", cursive;
   font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 10px;
 }
 
 #study{
   font-size: 60px;
+  text-shadow: 2px 2px  #521072;
 }
 
 #ghibli{
   font-size: 60px;
+  text-shadow: 2px 2px  #521072;
 }
 
 #homeghibliicon {
@@ -165,6 +143,8 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 24px;
+  color: rgb(243, 171, 255);
 }
 
 /***************************************DIRECTORY***************************************/
@@ -206,3 +186,8 @@ video {
 }
 
 
+/***************************************BACKGROUND IMAGES**************************/
+
+.howls-body{
+  background-image: url(https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/howl%20sewing%20gif.gif?v=1641958587892);
+}

@@ -10,16 +10,16 @@ body {
 .spirited-away-body {
   background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20gif.gif?v=1641444404753");
   background-size: cover;
+  color:#752c2a;
 }
 
 .totoro-body {
   background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/Totoro%20rain.gif?v=1641616672875");
   background-size: cover;
-  color: 
 }
 
 .ponyo-body {
-  background-image: url("https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/ponyo.jpeg?v=1642627897825");
+  background-image: url("https://media.npr.org/assets/artslife/movies/2009/08/ponyo/ponyobeach_wide-5e1abc1d910767d27cddcc5e7a1554a3040ed6c2.jpg");
   background-size: cover;
 }
 .howls-body{
@@ -109,7 +109,7 @@ body {
   width: 60%;
   height: 130px;
   background-color: #ffffff;
-  box-shadow: 0 20px 20px 0 #752c2a;
+  box-shadow: 0 20px 20px 0 rgb(90, 21, 21);
   border-radius: 15px;
   display: grid;
   align-items: center;
@@ -122,7 +122,6 @@ body {
             "a a a a a a a" 40px
      / 1fr 1fr 1fr;
   font-family: "Gemunu Libre", sans-serif;
-  color: #752c2a;
 }
 
 .Timer {
@@ -211,7 +210,7 @@ body {
   font-size: 20px;
   color: white;
   border-radius: 12px;
-  background-color: #752c2a;
+  background-color: color;
   border: none;
   align-self: left;
   grid-area: 4 / 2 / 5 / 3;
@@ -225,7 +224,7 @@ body {
   font-size: 20px;
   color: white;
   border-radius: 12px;
-  background-color: #752c2a;
+  background-color: color;
   border: none;
   align-self: right;
   width: 80px;
@@ -280,15 +279,15 @@ body {
 }
 
 .img-container::after {
+  content: "";
   background-color: white;
-  content: "oo";
-  width: 30px;
-  height: 30px;
   border-radius: 50%;
-  position: relative;
-  bottom: 90px;
-  left: 45px;
-  
+  position: absolute;
+  left: 50%;
+  bottom: 80%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, 50%);
 }
 
 .img-container img {
@@ -296,8 +295,9 @@ body {
   object-fit: cover;
   height: 110px;
   width: inherit;
-  position: relative;
-  bottom: 30px;
+  position: absolute;
+  bottom: -20%;
+  right: 2%;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
 }
@@ -334,9 +334,7 @@ body {
 }
 
 .action-btn.action-btn-big {
-  border:#795548;
-  border-radius:30%;
-  color: #795548;
+  color: #898789;
   font-size: 35px;
 }
 
