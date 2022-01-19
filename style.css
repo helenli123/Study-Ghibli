@@ -87,6 +87,7 @@ video {
   font-family: "Unica One", cursive;
   font-size: 50px;
   font-weight: bold;
+  text-shadow: 3px 3px  #521072;
   letter-spacing: 3px;
   margin-top: 10px;
 }
