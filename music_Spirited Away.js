@@ -25,7 +25,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = music[songIndex];
-  cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/totoroAlbumCover.jpg?v=1642630898074";
+  cover.src = "https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/spirited%20away%20album.png?v=1641539217729";
 }
 
 // Play song
