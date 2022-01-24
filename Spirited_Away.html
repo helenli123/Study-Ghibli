@@ -19,34 +19,32 @@
     <!-- this is the start of content -->
     
     <!------------------------------------------Timer------------------------------------------->
-      
-      <section class="timerMusic">
-      
-        <div class="Timer">
-          <h2>Timer</h2>
+    <section class="timerMusic">
+      <div class="Timer">
+        <h2>Timer</h2>
 
-          <div id="container">
-            <p id="hour-label" class="label">Hours</p>
-            <p id="min-label" class="label">Minutes</p>
-            <p id="sec-label" class="label">Seconds</p>
-            <input id="hour" type="number" max="99" min="0" value="0" class="time" />
-            <p id="p1" class="semicolon">:</p>
-            <input
-              id="minute"
-              type="number"
-              max="60"
-              min="0"
-              value="0"
-              class="time"
-            />
-            <p id="p2" class="semicolon">:</p>
-            <input id="sec" type="number" max="60" min="0" value="0" class="time" />
-            
-            <button id="start" class="button">Start</button>
-            <button id="reset" class="button">Reset</button>
-            <button id="stop" class="button">Stop</button>
-          </div>
+        <div id="container">
+          <p id="hour-label" class="label">Hours</p>
+          <p id="min-label" class="label">Minutes</p>
+          <p id="sec-label" class="label">Seconds</p>
+          <input id="hour" type="number" max="99" min="0" value="0" class="time" />
+          <p id="p1" class="semicolon">:</p>
+          <input
+            id="minute"
+            type="number"
+            max="60"
+            min="0"
+            value="0"
+            class="time"
+          />
+          <p id="p2" class="semicolon">:</p>
+          <input id="sec" type="number" max="60" min="0" value="0" class="time" />
+
+          <button id="start" class="button">Start</button>
+          <button id="reset" class="button">Reset</button>
+          <button id="stop" class="button">Stop</button>
         </div>
+      </div>
 
         <!------------------------------------------MUSIC------------------------------------------->
         <section class="Music">
@@ -64,7 +62,7 @@
              <audio
               src="https://cdn.glitch.global/89be2ea4-79b8-4a1d-a240-17699999f723/One Summers Day.mp3?v=1641538998059"
               id="audio"
-            ></audio>
+             ></audio>
 
             <div class="img-container">
               <img
@@ -86,9 +84,7 @@
               </button>
             </div>
           </div>
-
         </section>
-
       </section>
 
 
@@ -169,63 +165,58 @@
           </div>
         </a>
       </section>
-    
     </div>
     
-    <!------------------------------------------todo list------------------------------------------->
-    <!--<section class="testBody">-->
-      <section class="todoSec">
-        <div class="all-tasks">
-          <h2 class="task-list-title">Categories</h2>
-          <ul class="task-list" data-lists>
-          </ul>
+    <!------------------------------------------TODO LIST------------------------------------------->
+    <section class="todoSec">
+      <div class="all-tasks">
+        <h2 class="task-list-title">Categories</h2>
+        <ul class="task-list" data-lists>
+        </ul>
 
-          <form action="" data-new-list-form>
-            <input 
-              type="text"
-              class="new list"
-              data-new-list-input
-              placeholder="new list name"
-              aria-label="new list name"
-            />
-            <button class="btn create" aria-label="create new list">+</button>
-          </form>
+        <form action="" data-new-list-form>
+          <input 
+            type="text"
+            class="new list"
+            data-new-list-input
+            placeholder="new list name"
+            aria-label="new list name"
+          />
+          <button class="btn create" aria-label="create new list">+</button>
+        </form>
+      </div>
+
+      <div class="todo-list" data-list-display-container>
+        <div class="todo-header">
+          <h2 class="list-title" data-list-title></h2>
+          <p class="task-count" data-list-count></p>
         </div>
 
-        <div class="todo-list" data-list-display-container>
-          <div class="todo-header">
-            <h2 class="list-title" data-list-title></h2>
-            <p class="task-count" data-list-count></p>
+        <div class="todo-body">
+          <div class="tasks" data-tasks>
           </div>
 
-          <div class="todo-body">
-            <div class="tasks" data-tasks>
-            </div>
-
-            <div class="new-task-creator">
-                <form action="" data-new-task-form>
-                    <input 
-                      type="text"
-                      data-new-task-input
-                      class="new task"
-                      placeholder="new task name"
-                      aria-label="new task name"
-                    />
-                    <button class="btn create" aria-label="create new task">+</button>
-                  </form>
-            </div>
-
-            <div class="delete-stuff">
-              <button class="btn delete" data-clear-complete-tasks-button>Clear completed tasks</button>
-              <button class="btn delete" data-delete-list-button>Delete list</button>
-            </div>                      <!--let's us select in js-->
+          <div class="new-task-creator">
+              <form action="" data-new-task-form>
+                  <input 
+                    type="text"
+                    data-new-task-input
+                    class="new task"
+                    placeholder="new task name"
+                    aria-label="new task name"
+                  />
+                  <button class="btn create" aria-label="create new task">+</button>
+                </form>
           </div>
+
+          <div class="delete-stuff">
+            <button class="btn delete" data-clear-complete-tasks-button>Clear completed tasks</button>
+            <button class="btn delete" data-delete-list-button>Delete list</button>
+          </div>                      <!--let's us select in js-->
         </div>
-      </section>
-    <!--</section>-->
-
+      </div>
+    </section>
    
-    <!--</div>-->
     <template id = "task-template">
       <div class="task">
         <input 
@@ -237,7 +228,7 @@
     </template>
 
     <script src="todoList.js"></script>
-    <script src="music_Spirited_Away.js"></script>
+    <script src="music_Spirited Away.js"></script>
     <script src="timer.js"></script>
     <script src="script.js"></script>
     

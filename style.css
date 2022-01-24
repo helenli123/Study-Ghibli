@@ -48,58 +48,6 @@ video {
   overflow: hidden;
 }
 
-/*.button-cover1{
-	border-radius: 12px;
-	background: #E1C7E6;
-	box-shadow: inset 1px 1px 2px 0px #6C6D6E;
-	cursor: pointer;
-	display: flex;
-	align-items: right;
-  margin-left: 1480px;
-  border: none;
-}
-
-.button-cover1:hover {
-  box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  border-radius:12px;
-}
-
-.button-cover2{
-	border-radius: 12px;
-	background: #E1C7E6;
-	box-shadow: inset 1px 1px 2px 0px #737375;
-	cursor: pointer;
-	display: flex;
-	align-items: right;
-  margin-left: 1440px;
-  margin-top: -140px;
-  border: none;
-}
-
-.button-cover2:hover {
-  box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -moz-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  -o-box-shadow: 0px 0px 25px  rgba(0,0,0,0.6);
-  border-radius:12px;
-}
-
-.button-icon {
-	padding: 9px 10px;
-	border-right: 1px solid rgba(255, 255, 255, 0.16);
-	color:rgb(129,12,148);
-}
-
-.button-icon svg {
-	vertical-align: middle;
-	position: relative;
-	font-size: 31px;
-	top: -1px;
-}*/
-
 .welcome {
   text-align: center;
   margin: 10px;
@@ -118,10 +66,12 @@ video {
 
 #study{
   font-size: 60px;
+  text-shadow: 2px 2px  #6A1284;
 }
 
 #ghibli{
   font-size: 60px;
+  text-shadow: 2px 2px  #6A1284;
 }
 
 #homeghibliicon {
