@@ -103,7 +103,8 @@ video {
 .welcome {
   text-align: center;
   margin: 10px;
-  color: rgb(243, 171, 255);
+  /*color: rgb(243, 171, 255);*/
+  color: white;
   font-size: 50px;
   margin-left:-8px;
 }
@@ -111,7 +112,8 @@ video {
 .studyghibli {
   display: flex;
   justify-content: center;
-  color: rgb(224, 50, 253);
+  /*color: rgb(224, 50, 253);*/
+  color: white;
   font-family: "Unica One", cursive;
   font-size: 50px;
 }
