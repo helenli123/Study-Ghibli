@@ -118,10 +118,12 @@ video {
 
 #study{
   font-size: 60px;
+  text-shadow: 2px 2px  #733696; 
 }
 
 #ghibli{
   font-size: 60px;
+  text-shadow: 2px 2px  #733696; 
 }
 
 #homeghibliicon {
