@@ -112,8 +112,7 @@ video {
 .studyghibli {
   display: flex;
   justify-content: center;
-  /*color: rgb(224, 50, 253);*/
-  color: white;
+  color: rgb(224, 50, 253);
   font-family: "Unica One", cursive;
   font-size: 50px;
 }
