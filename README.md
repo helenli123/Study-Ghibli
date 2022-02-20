@@ -3,15 +3,17 @@
 Study Ghibli is a productivity platform which allows users to select Ghibli themed virtual environments to study with. A defining feature of our platform is that there is an option for users to study in the company of people online, in order to keep each other accountable for studying productively. In the virtual environment, Study Ghibli provides users with a countdown timer to track the time spent studying and also provides a space for users to add their goals and assignments they wish to achieve during the study period.
 ## What's in this project?
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+← `README.md`: That's this file, this is how we built our website and what our website is about
 
-← `index.html`: This is the main HTML page for your site.
+← `index.html`: This is the main/welcoming HTML page for your site.
 
-← `style.css`: CSS files add styling rules to your content.
+← `directory.html`: This is the HTML page that directs the users to the different study environments
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+← `style.css`: styling for the directory.html and index.html page
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+← `script.js`: 
+
+← `enivronmet.c`
 
 ## Built this website with Glitch!
 
