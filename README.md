@@ -1,7 +1,6 @@
-# Hello Website (blank)
+# Study Ghibli
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
-
+Study Ghibli is a productivity platform which allows users to select Ghibli themed virtual environments to study with. A defining feature of our platform is that there is an option for users to study in the company of people online, in order to keep each other accountable for studying productively. In the virtual environment, Study Ghibli provides users with a countdown timer to track the time spent studying and also provides a space for users to add their goals and assignments they wish to achieve during the study period.
 ## What's in this project?
 
 ← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
@@ -14,7 +13,7 @@ This is a basic static HTML starter project you can build on however you like. N
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-## You built this with Glitch!
+## Built this website with Glitch!
 
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
